@@ -1,0 +1,102 @@
+{
+ "nor_shelf": {
+  "nutrient_eur_per_t": {
+   "wave_pump": 0.0,
+   "wave_pump_xl": 0.0,
+   "solar_pipe": 0.0,
+   "salt_fountain": Infinity,
+   "depth_cycling": 106.52974980067101,
+   "refinery_return": 0.0
+  },
+  "units_per_km2": {
+   "wave_pump": 0.0,
+   "wave_pump_xl": 0.0,
+   "solar_pipe": 0.0,
+   "salt_fountain": 0,
+   "depth_cycling": 1.0,
+   "refinery_return": 0
+  },
+  "n_supplement_kgN_per_t": 0.0,
+  "deep_water_m3_per_t_dw": 0.0
+ },
+ "nor_slope": {
+  "nutrient_eur_per_t": {
+   "wave_pump": 7169.772699263075,
+   "wave_pump_xl": 7513.776944934785,
+   "solar_pipe": 314.81787311182296,
+   "salt_fountain": Infinity,
+   "depth_cycling": 106.52974980067101,
+   "refinery_return": 13.6
+  },
+  "units_per_km2": {
+   "wave_pump": 654.4374128780194,
+   "wave_pump_xl": 164.60092505719876,
+   "solar_pipe": 6.756008118019354,
+   "salt_fountain": 0,
+   "depth_cycling": 1.0,
+   "refinery_return": 0
+  },
+  "n_supplement_kgN_per_t": 3.9999999999999996,
+  "deep_water_m3_per_t_dw": 95238.09523809522
+ },
+ "nor_deep": {
+  "nutrient_eur_per_t": {
+   "wave_pump": 14339.545398526152,
+   "wave_pump_xl": 15027.553889869576,
+   "solar_pipe": 629.635746223646,
+   "salt_fountain": Infinity,
+   "depth_cycling": 106.52974980067101,
+   "refinery_return": 27.200000000000006
+  },
+  "units_per_km2": {
+   "wave_pump": 1308.874825756039,
+   "wave_pump_xl": 329.2018501143976,
+   "solar_pipe": 13.51201623603871,
+   "salt_fountain": 0,
+   "depth_cycling": 1.0,
+   "refinery_return": 0
+  },
+  "n_supplement_kgN_per_t": 8.0,
+  "deep_water_m3_per_t_dw": 190476.19047619047
+ },
+ "can_deep": {
+  "nutrient_eur_per_t": {
+   "wave_pump": 30247.4785750161,
+   "wave_pump_xl": 31698.746486443633,
+   "solar_pipe": 1062.5103217524027,
+   "salt_fountain": 79730.7745443003,
+   "depth_cycling": 159.7946247010065,
+   "refinery_return": 45.900000000000006
+  },
+  "units_per_km2": {
+   "wave_pump": 1840.6052237194297,
+   "wave_pump_xl": 462.94010172337164,
+   "solar_pipe": 15.201018265543548,
+   "salt_fountain": 814.7745790331342,
+   "depth_cycling": 1.0,
+   "refinery_return": 0
+  },
+  "n_supplement_kgN_per_t": 13.5,
+  "deep_water_m3_per_t_dw": 321428.5714285714
+ },
+ "med_deep": {
+  "nutrient_eur_per_t": {
+   "wave_pump": 45707.30095780211,
+   "wave_pump_xl": 47900.32802395927,
+   "solar_pipe": 2006.9639410878717,
+   "salt_fountain": Infinity,
+   "depth_cycling": 199.74328087625815,
+   "refinery_return": 43.35
+  },
+  "units_per_km2": {
+   "wave_pump": 2225.087203785266,
+   "wave_pump_xl": 559.6431451944759,
+   "solar_pipe": 22.970427601265808,
+   "salt_fountain": 0,
+   "depth_cycling": 1.0,
+   "refinery_return": 0
+  },
+  "n_supplement_kgN_per_t": 12.75,
+  "deep_water_m3_per_t_dw": 607142.8571428572
+ }
+}

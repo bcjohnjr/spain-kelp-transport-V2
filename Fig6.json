@@ -1,0 +1,139 @@
+{
+ "a_well_to_wheel": {
+  "columns": [
+   "system",
+   "MtCO2e/yr",
+   "low factor set",
+   "high factor set"
+  ],
+  "rows": [
+   [
+    "Fossil comparator",
+    184.3285025784,
+    "",
+    ""
+   ],
+   [
+    "Low-carbon system",
+    17.52225562153483,
+    11.38224260102361,
+    26.29140056757109
+   ]
+  ],
+  "note": "Reduction 90.49% (factor sensitivity 85.74-93.83%)."
+ },
+ "b_contributions": {
+  "columns": [
+   "carrier group",
+   "MtCO2e/yr"
+  ],
+  "rows": [
+   [
+    "Direct electric transport",
+    3.8607213615636504
+   ],
+   [
+    "Kelp-derived fuels",
+    6.019193291579731
+   ],
+   [
+    "Existing/residue biofuels",
+    7.091999999999999
+   ],
+   [
+    "Electrofuels",
+    0.5503409683914493
+   ]
+  ],
+  "note": ""
+ },
+ "factors": {
+  "columns": [
+   "item",
+   "gCO2e/MJ or gCO2e/kWh"
+  ],
+  "rows": [
+   [
+    "fuel-cycle factor: eFT_liquids",
+    12.0
+   ],
+   [
+    "fuel-cycle factor: e_methanol",
+    12.0
+   ],
+   [
+    "fuel-cycle factor: e_ammonia",
+    3.2
+   ],
+   [
+    "fuel-cycle factor: e_methane",
+    12.0
+   ],
+   [
+    "fuel-cycle factor: ATJ_jet_from_ethanol",
+    25.0
+   ],
+   [
+    "fuel-cycle factor: bio_methanol_from_CH4",
+    25.0
+   ],
+   [
+    "fuel-cycle factor: waste_biomethane",
+    25.0
+   ],
+   [
+    "fuel-cycle factor: HEFA_waste_lipids",
+    25.0
+   ],
+   [
+    "fuel-cycle factor: residue_FT",
+    25.0
+   ],
+   [
+    "fuel-cycle factor: FAME_biodiesel_existing",
+    25.0
+   ],
+   [
+    "fuel-cycle factor: crop_ethanol_existing",
+    25.0
+   ],
+   [
+    "fuel-cycle factor: kelp HTL diesel/jet",
+    22.0
+   ],
+   [
+    "fuel-cycle factor: kelp ethanol",
+    22.0
+   ],
+   [
+    "fuel-cycle factor: kelp biomethane (net of fleet)",
+    22.0
+   ],
+   [
+    "electricity: PV",
+    40.0
+   ],
+   [
+    "electricity: Onshore wind",
+    9.3
+   ],
+   [
+    "electricity: Offshore wind",
+    11.0
+   ],
+   [
+    "electricity: CSP",
+    23.0
+   ],
+   [
+    "electricity: Nuclear (life extension)",
+    12.0
+   ],
+   [
+    "electricity: Nuclear (new)",
+    12.0
+   ]
+  ],
+  "note": ""
+ }
+}

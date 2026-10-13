@@ -1,0 +1,263 @@
+{
+ "base": {
+  "cost": 108.34997485148072,
+  "kelp_km2": 63374.48665684427,
+  "kelp_mt": 95.06172998526638,
+  "new_nuclear_gw": 6.072008920810294,
+  "capex": 642.7902083894555
+ },
+ "fossil": {
+  "oct2026": 69.51729148172222,
+  "avg2025": 41.729536681
+ },
+ "single": {
+  "farm": {
+   "label": "Cheaper farming: biomass \u20ac300 \u2192 \u20ac200/t dry\n(automated harvest, large arrays, shared anchors)",
+   "cost": 96.08060895339611,
+   "saving": 12.269365898084615,
+   "kelp_km2": 63374.48665684427,
+   "kelp_mt": 95.06172998526638
+  },
+  "yield": {
+   "label": "Higher yield: 15 \u2192 20 t dry/ha/yr\n(selected strains, two harvests per year)",
+   "cost": 99.8826008649284,
+   "saving": 8.467373986552317,
+   "kelp_km2": 47530.8649926332,
+   "kelp_mt": 95.0617299852664
+  },
+  "deep": {
+   "label": "Cheaper deep-water structures: mooring factor 1.3 \u2192 1.1,\ndepth-cycling \u20ac1.0M \u2192 \u20ac0.5M per km\u00b2",
+   "cost": 99.40546960676404,
+   "saving": 8.94450524471668,
+   "kelp_km2": 63374.48665684427,
+   "kelp_mt": 95.06172998526638
+  },
+  "conversion": {
+   "label": "Better conversion: ferment all alginate,\nHTL residue yield 0.25 \u2192 0.30",
+   "cost": 103.10572763407582,
+   "saving": 5.244247217404904,
+   "kelp_km2": 58252.16248264395,
+   "kelp_mt": 87.37824372396594
+  },
+  "refcapex": {
+   "label": "Biorefinery cost \u221230%\n(nth-of-a-kind plants, standard modules)",
+   "cost": 102.07590067245317,
+   "saving": 6.274074179027551,
+   "kelp_km2": 63374.48665684427,
+   "kelp_mt": 95.06172998526638
+  },
+  "route": {
+   "label": "Let each refinery choose ethanol + HTL\nor whole-kelp HTL",
+   "cost": 102.98446214072621,
+   "saving": 5.3655127107545155,
+   "kelp_km2": 62452.76601358205,
+   "kelp_mt": 93.67914902037306
+  },
+  "heat": {
+   "label": "Heat pumps and grid power where cheaper\nthan nuclear steam",
+   "cost": 106.15725923751675,
+   "saving": 2.192715613963969,
+   "kelp_km2": 63374.48665684427,
+   "kelp_mt": 95.06172998526638
+  },
+  "capital": {
+   "label": "Cheaper capital: 4% instead of 7%\n(public / green-bond financing)",
+   "cost": 91.94602111753589,
+   "saving": 16.40395373394483,
+   "kelp_km2": 63374.48665684427,
+   "kelp_mt": 95.06172998526638
+  },
+  "demand": {
+   "label": "Use less fuel: aviation \u221225%, shipping \u221215%,\nwind-assisted ships up to 20%",
+   "cost": 93.46971237053499,
+   "saving": 14.880262480945731,
+   "kelp_km2": 55332.002693707516,
+   "kelp_mt": 82.99800404056128
+  },
+  "relax": {
+   "label": "Electric heavy equipment and trucks where\nthey work (drop the 'liquid only' rule)",
+   "cost": 84.05012499174373,
+   "saving": 24.299849859736995,
+   "kelp_km2": 39625.614189721244,
+   "kelp_mt": 59.43842128458187
+  }
+ },
+ "cumulative": [
+  {
+   "key": "farm",
+   "label": "Cheaper farming: biomass \u20ac300 \u2192 \u20ac200/t dry\n(automated harvest, large arrays, shared anchors)",
+   "cost": 96.08060895339611,
+   "step_saving": 12.269365898084615,
+   "kelp_km2": 63374.48665684427,
+   "kelp_mt": 95.06172998526638,
+   "kelp_share": 31.864223967068305,
+   "new_nuclear_gw": 6.072008920810294,
+   "capex": 642.7902083894555,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 274.2959702102254,
+   "fert_n": 1.140740759823197
+  },
+  {
+   "key": "yield",
+   "label": "Higher yield: 15 \u2192 20 t dry/ha/yr\n(selected strains, two harvests per year)",
+   "cost": 89.47875990155646,
+   "step_saving": 6.60184905183965,
+   "kelp_km2": 47530.8649926332,
+   "kelp_mt": 95.0617299852664,
+   "kelp_share": 31.93614594008399,
+   "new_nuclear_gw": 6.072008920810294,
+   "capex": 585.1444297500855,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 273.52264368714845,
+   "fert_n": 1.140740759823197
+  },
+  {
+   "key": "deep",
+   "label": "Cheaper deep-water structures: mooring factor 1.3 \u2192 1.1,\ndepth-cycling \u20ac1.0M \u2192 \u20ac0.5M per km\u00b2",
+   "cost": 83.83564083372008,
+   "step_saving": 5.6431190678363805,
+   "kelp_km2": 47530.8649926332,
+   "kelp_mt": 95.0617299852664,
+   "kelp_share": 31.93614594008399,
+   "new_nuclear_gw": 6.072008920810294,
+   "capex": 585.1444297500855,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 273.52264368714845,
+   "fert_n": 1.140740759823197
+  },
+  {
+   "key": "conversion",
+   "label": "Better conversion: ferment all alginate,\nHTL residue yield 0.25 \u2192 0.30",
+   "cost": 80.56667266722617,
+   "step_saving": 3.268968166493906,
+   "kelp_km2": 43689.12186198297,
+   "kelp_mt": 87.37824372396594,
+   "kelp_share": 31.73875356504137,
+   "new_nuclear_gw": 5.427284525143232,
+   "capex": 554.998492298029,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 273.82660132698913,
+   "fert_n": 1.0485389246875914
+  },
+  {
+   "key": "refcapex",
+   "label": "Biorefinery cost \u221230%\n(nth-of-a-kind plants, standard modules)",
+   "cost": 74.7997085814444,
+   "step_saving": 5.7669640857817654,
+   "kelp_km2": 43689.12186198297,
+   "kelp_mt": 87.37824372396594,
+   "kelp_share": 31.73875356504137,
+   "new_nuclear_gw": 5.427284525143232,
+   "capex": 554.998492298029,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 273.82660132698913,
+   "fert_n": 1.0485389246875914
+  },
+  {
+   "key": "route",
+   "label": "Let each refinery choose ethanol + HTL\nor whole-kelp HTL",
+   "cost": 72.99159979013629,
+   "step_saving": 1.8081087913081149,
+   "kelp_km2": 46962.69766643561,
+   "kelp_mt": 93.92539533287122,
+   "kelp_share": 32.854363644353505,
+   "new_nuclear_gw": 7.37563162672783,
+   "capex": 572.6728443749244,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 267.63523479336214,
+   "fert_n": 1.1271047439944546
+  },
+  {
+   "key": "heat",
+   "label": "Heat pumps and grid power where cheaper\nthan nuclear steam",
+   "cost": 69.5502156190344,
+   "step_saving": 3.4413841711018875,
+   "kelp_km2": 53269.050928851255,
+   "kelp_mt": 106.53810185770253,
+   "kelp_share": 37.078697795479876,
+   "new_nuclear_gw": 0.7452730306107329,
+   "capex": 560.7886334776604,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 239.42222725519662,
+   "fert_n": 1.2784572222924302
+  },
+  {
+   "key": "capital",
+   "label": "Cheaper capital: 4% instead of 7%\n(public / green-bond financing)",
+   "cost": 59.75507443361919,
+   "step_saving": 9.795141185415211,
+   "kelp_km2": 52355.79900164287,
+   "kelp_mt": 104.71159800328573,
+   "kelp_share": 36.44794766735921,
+   "new_nuclear_gw": 0.732495967388586,
+   "capex": 562.1239796185405,
+   "fossil_same_demand": {
+    "oct2026": 69.51729148172222,
+    "avg2025": 41.729536681
+   },
+   "electricity_twh": 245.3011128587414,
+   "fert_n": 1.2565391760394287
+  },
+  {
+   "key": "demand",
+   "label": "Use less fuel: aviation \u221225%, shipping \u221215%,\nwind-assisted ships up to 20%",
+   "cost": 51.77195315820545,
+   "step_saving": 7.983121275413744,
+   "kelp_km2": 40698.57742717262,
+   "kelp_mt": 81.39715485434525,
+   "kelp_share": 30.420672268124726,
+   "new_nuclear_gw": 0.5694029011556223,
+   "capex": 462.5973878665804,
+   "fossil_same_demand": {
+    "oct2026": 66.51837991905556,
+    "avg2025": 39.85629441966667
+   },
+   "electricity_twh": 230.73583107718895,
+   "fert_n": 0.9767658582521429
+  },
+  {
+   "key": "relax",
+   "label": "Electric heavy equipment and trucks where\nthey work (drop the 'liquid only' rule)",
+   "cost": 43.7636760535858,
+   "step_saving": 8.008277104619651,
+   "kelp_km2": 35191.57134785499,
+   "kelp_mt": 70.38314269570999,
+   "kelp_share": 26.35453451879352,
+   "new_nuclear_gw": 0.5007653345918974,
+   "capex": 404.82018222488284,
+   "fossil_same_demand": {
+    "oct2026": 66.51837991905556,
+    "avg2025": 39.85629441966667
+   },
+   "electricity_twh": 192.07242653980654,
+   "fert_n": 0.8445977123485198
+  }
+ ],
+ "all_levers_kelp_not_forced": {
+  "cost": 42.7772369743691,
+  "kelp_km2": 18231.20181979022,
+  "kelp_mt": 36.462403639580444,
+  "kelp_share": 13.632547638917622
+ }
+}

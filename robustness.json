@@ -1,0 +1,198 @@
+{
+ "cases": [
+  {
+   "case": "central",
+   "cost_beur": 42.7772369743691,
+   "cost_incl_central_vehicle_premium_beur": 50.26378800735724,
+   "kelp_km2": 18231.20181979022,
+   "kelp_share_pct": 13.632547638917622,
+   "lifecycle_mtco2e": 17.52225562153483,
+   "lifecycle_reduction_pct": 90.49400641982531,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "no_kelp",
+   "cost_beur": 48.37400685508864,
+   "cost_incl_central_vehicle_premium_beur": 55.86055788807678,
+   "kelp_km2": 0,
+   "kelp_share_pct": 0.0,
+   "lifecycle_mtco2e": 15.217499199063665,
+   "lifecycle_reduction_pct": 91.74435912721027,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "north_atlantic_yield_5_t_ha",
+   "cost_beur": 47.600896037523725,
+   "cost_incl_central_vehicle_premium_beur": 55.087447070511864,
+   "kelp_km2": 13422.820467928446,
+   "kelp_share_pct": 3.30601389457715,
+   "lifecycle_mtco2e": 16.359963011183844,
+   "lifecycle_reduction_pct": 91.12456143117339,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "north_atlantic_yield_10_t_ha",
+   "cost_beur": 46.05982648370979,
+   "cost_incl_central_vehicle_premium_beur": 53.54637751669793,
+   "kelp_km2": 16132.94087436989,
+   "kelp_share_pct": 6.032340108822401,
+   "lifecycle_mtco2e": 16.105480090182745,
+   "lifecycle_reduction_pct": 91.26262088342379,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "north_atlantic_yield_15_t_ha",
+   "cost_beur": 44.3108012519168,
+   "cost_incl_central_vehicle_premium_beur": 51.79735228490494,
+   "kelp_km2": 19305.512212574227,
+   "kelp_share_pct": 10.900491632815385,
+   "lifecycle_mtco2e": 17.59991593772153,
+   "lifecycle_reduction_pct": 90.45187494525659,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "north_atlantic_yield_20_t_ha",
+   "cost_beur": 42.7772369743691,
+   "cost_incl_central_vehicle_premium_beur": 50.26378800735724,
+   "kelp_km2": 18231.20181979022,
+   "kelp_share_pct": 13.632547638917622,
+   "lifecycle_mtco2e": 17.52225562153483,
+   "lifecycle_reduction_pct": 90.49400641982531,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "marine_candidate_area_50pct",
+   "cost_beur": 42.7772369743691,
+   "cost_incl_central_vehicle_premium_beur": 50.26378800735724,
+   "kelp_km2": 18231.20181979022,
+   "kelp_share_pct": 13.632547638917622,
+   "lifecycle_mtco2e": 17.52225562153483,
+   "lifecycle_reduction_pct": 90.49400641982531,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "marine_candidate_area_25pct",
+   "cost_beur": 42.935588030135435,
+   "cost_incl_central_vehicle_premium_beur": 50.42213906312357,
+   "kelp_km2": 17317.94989258183,
+   "kelp_share_pct": 12.917670494509403,
+   "lifecycle_mtco2e": 17.475640566110737,
+   "lifecycle_reduction_pct": 90.51929553939827,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "marine_candidate_area_10pct",
+   "cost_beur": 43.196775266577326,
+   "cost_incl_central_vehicle_premium_beur": 50.683326299565465,
+   "kelp_km2": 16260.658458356324,
+   "kelp_share_pct": 12.119478263887167,
+   "lifecycle_mtco2e": 17.51996169511819,
+   "lifecycle_reduction_pct": 90.49525089714953,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "marine_candidate_area_5pct",
+   "cost_beur": 43.73603695500152,
+   "cost_incl_central_vehicle_premium_beur": 51.22258798798966,
+   "kelp_km2": 14222.35,
+   "kelp_share_pct": 10.555738610157738,
+   "lifecycle_mtco2e": 17.64515291649583,
+   "lifecycle_reduction_pct": 90.42733344562876,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "integration_adders_x1.5",
+   "cost_beur": 45.54561649748303,
+   "cost_incl_central_vehicle_premium_beur": 53.03216753047117,
+   "kelp_km2": 25488.126547001433,
+   "kelp_share_pct": 19.055083803095396,
+   "lifecycle_mtco2e": 18.618115494136887,
+   "lifecycle_reduction_pct": 89.89949181287464,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "integration_adders_x2.0",
+   "cost_beur": 48.00943463330813,
+   "cost_incl_central_vehicle_premium_beur": 55.49598566629627,
+   "kelp_km2": 25488.126547001433,
+   "kelp_share_pct": 19.055083803095396,
+   "lifecycle_mtco2e": 18.73966176904739,
+   "lifecycle_reduction_pct": 89.8335517801557,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "finance_7pct",
+   "cost_beur": 48.93248154424124,
+   "cost_incl_central_vehicle_premium_beur": 56.41903257722938,
+   "kelp_km2": 18231.20181979022,
+   "kelp_share_pct": 13.632547638917622,
+   "lifecycle_mtco2e": 16.520737082159407,
+   "lifecycle_reduction_pct": 91.03733993871477,
+   "fossil_oct2026_beur": 66.51837991905556,
+   "fossil_2025_beur": 39.85629441966667
+  },
+  {
+   "case": "domestic_aviation_shipping_scope",
+   "cost_beur": 22.903905588895878,
+   "cost_incl_central_vehicle_premium_beur": 30.390456621884017,
+   "kelp_km2": 1360.5,
+   "kelp_share_pct": 1.3638106136171089,
+   "lifecycle_mtco2e": 9.227162310452085,
+   "lifecycle_reduction_pct": 93.33422035153932,
+   "fossil_oct2026_beur": 56.93085166241556,
+   "fossil_2025_beur": 33.63713952814667
+  }
+ ],
+ "break_even": {
+  "energy_only_vs_2025_price_multiplier": 1.073286857125913,
+  "incl_central_vehicle_premium_vs_2025_price_multiplier": 1.2611254693701557,
+  "energy_only_vs_oct2026_price_multiplier": 0.6430889782105875,
+  "incl_central_vehicle_premium_vs_oct2026_price_multiplier": 0.7556375857097226,
+  "today_energy_only_vs_2025_price_multiplier": 1.6681021875080515,
+  "today_incl_central_vehicle_premium_vs_2025_price_multiplier": 1.8475087093254114,
+  "oct2026_vs_2025_fossil_bill_ratio": 1.668955453275475,
+  "monte_carlo_energy_only_vs_2025_p5_p50_p95": [
+   1.1540717338500597,
+   1.2588180355674479,
+   1.3920310798333486
+  ],
+  "monte_carlo_incl_vehicles_vs_2025_p5_p50_p95": [
+   1.3286954233684494,
+   1.47125873345988,
+   1.6382401071983592
+  ]
+ },
+ "monte_carlo_position": {
+  "share_of_draws_costlier_than_learning_case": 1.0,
+  "median_saving_vs_oct2026_pct_energy_only": 24.58666534133699,
+  "median_saving_vs_oct2026_pct_incl_vehicles": 11.82880860715091
+ },
+ "vehicle_premium_split_beur": {
+  "learning_case": {
+   "cars_and_vans": 3.210304214957531,
+   "heavy_trucks_and_offroad": 4.276246818030609
+  },
+  "today_case": {
+   "cars_and_vans": 3.210304214957531,
+   "heavy_trucks_and_offroad": 4.276246818030609
+  },
+  "today_case_energy_cost_beur": 69.60913142127357,
+  "today_case_fossil_same_demand_beur": {
+   "oct2026": 69.51729148172222,
+   "avg2025": 41.729536681
+  }
+ },
+ "note": "Integration-adder tests are annual cost stresses, not hourly dispatch validation."
+}

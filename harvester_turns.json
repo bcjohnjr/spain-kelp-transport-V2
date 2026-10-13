@@ -1,0 +1,31 @@
+{
+ "cycle_area_m2": 14400.0,
+ "conventional": {
+  "vessel_width_m": 10.0,
+  "turns_90deg": 10,
+  "missed_m2": 214.6018366025517,
+  "missed_pct": 1.4902905319621647
+ },
+ "grid": {
+  "head_width_m": 6.0,
+  "span_m": 100.0,
+  "laps": 24,
+  "turns_180deg": 23,
+  "forward": {
+   "missed_per_turn_m2": 15.451332235383724,
+   "missed_m2": 355.38064141382563,
+   "missed_pct": 2.467921120929345,
+   "lmm_twice_per_turn_m2": 56.548667764616276,
+   "lmm_twice_m2": 1300.6193585861743,
+   "lmm_twice_pct": 9.032078879070655
+  },
+  "stationary": {
+   "missed_per_turn_m2": 3.862833058845931,
+   "missed_m2": 88.84516035345641,
+   "missed_pct": 0.6169802802323362,
+   "lmm_twice_per_turn_m2": 18.0,
+   "lmm_twice_m2": 414.0,
+   "lmm_twice_pct": 2.875
+  }
+ }
+}

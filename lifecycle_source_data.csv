@@ -1,0 +1,9 @@
+metric,value,unit
+fossil lifecycle,184.3285025784,MtCO2e/yr
+low-carbon lifecycle,17.52225562153483,MtCO2e/yr
+low-carbon factor sensitivity low,11.38224260102361,MtCO2e/yr
+low-carbon factor sensitivity high,26.29140056757109,MtCO2e/yr
+Direct electric transport,3.8607213615636504,MtCO2e/yr
+Kelp-derived fuels,6.019193291579731,MtCO2e/yr
+Existing/residue biofuels,7.091999999999999,MtCO2e/yr
+Electrofuels,0.5503409683914493,MtCO2e/yr

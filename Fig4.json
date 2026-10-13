@@ -1,0 +1,161 @@
+{
+ "a_electricity_supply": {
+  "columns": [
+   "source",
+   "TWh/yr",
+   "GW"
+  ],
+  "rows": [
+   [
+    "PV",
+    122.77454384388537,
+    68.36760432335748
+   ],
+   [
+    "Onshore wind",
+    104.5707271521846,
+    44.21221340782369
+   ],
+   [
+    "Nuclear",
+    2.010955038914866,
+    0.25506786389077446
+   ]
+  ],
+  "note": ""
+ },
+ "a_electricity_use": {
+  "columns": [
+   "use",
+   "TWh/yr"
+  ],
+  "rows": [
+   [
+    "Vehicles, rail",
+    149.8878287465667
+   ],
+   [
+    "E-fuels",
+    55.32502090793037
+   ],
+   [
+    "Biorefineries (incl. heat pumps)",
+    22.132421341572915
+   ]
+  ],
+  "note": ""
+ },
+ "b_fuels": {
+  "columns": [
+   "fuel",
+   "TWh/yr"
+  ],
+  "rows": [
+   [
+    "Kelp HTL diesel/jet",
+    69.24648000000002
+   ],
+   [
+    "Residue FT",
+    30.0
+   ],
+   [
+    "HVO, waste lipids",
+    12.0
+   ],
+   [
+    "FAME biodiesel",
+    10.3
+   ],
+   [
+    "Crop ethanol",
+    1.5
+   ],
+   [
+    "E-ammonia",
+    25.50720253933332
+   ],
+   [
+    "E-methane",
+    5.937453591165035
+   ],
+   [
+    "Waste biomethane",
+    25.0
+   ],
+   [
+    "Kelp biomethane",
+    6.753435297723858
+   ]
+  ],
+  "note": ""
+ },
+ "c_supply_by_segment": {
+  "columns": [
+   "segment",
+   "Battery-electric",
+   "Drop-in liquids",
+   "Ethanol",
+   "Methane",
+   "Ammonia / methanol",
+   "Wind assist (saved)"
+  ],
+  "rows": [
+   [
+    "Cars",
+    221.72590607777778,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "Trucks, buses",
+    113.80329948,
+    11.216239624761899,
+    1.4285714285714286,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "Off-road",
+    18.15555555555556,
+    27.233333333333334,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "Aviation",
+    0.0,
+    69.698592,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    "Shipping",
+    0.0,
+    13.39831504190478,
+    0.0,
+    37.69088888888889,
+    24.292573846984112,
+    18.845444444444446
+   ],
+   [
+    "Rail",
+    3.762994688,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "note": "Fossil energy replaced, TWh/yr."
+ }
+}

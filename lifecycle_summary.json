@@ -1,0 +1,24 @@
+{
+ "lifecycle": {
+  "fossil_wtw_mtco2e": 184.3285025784,
+  "lowcarbon_wtw_mtco2e": 17.52225562153483,
+  "lowcarbon_factor_sensitivity_mtco2e": [
+   11.38224260102361,
+   26.29140056757109
+  ],
+  "avoided_wtw_mtco2e": 166.80624695686515,
+  "reduction_pct": 90.49400641982531,
+  "reduction_factor_sensitivity_pct": [
+   85.73666025611604,
+   93.82502302041843
+  ],
+  "electricity_ci_gco2e_kwh": 25.75740401237938,
+  "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+ },
+ "components_mtco2e": {
+  "Direct electric transport": 3.8607213615636504,
+  "Kelp-derived fuels": 6.019193291579731,
+  "Existing/residue biofuels": 7.091999999999999,
+  "Electrofuels": 0.5503409683914493
+ }
+}

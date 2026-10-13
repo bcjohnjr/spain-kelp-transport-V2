@@ -1,0 +1,89 @@
+{
+ "No residue FT": {
+  "cost": 43.7636760535858,
+  "delta": 0.9864390792166944,
+  "kelp_km2": 35191.571347855,
+  "kelp_share": 26.35453451879353,
+  "gw": {
+   "PV": 37.6,
+   "Onshore wind": 52.7,
+   "Nuclear (new)": 0.5
+  }
+ },
+ "Waste biomethane 10 TWh": {
+  "cost": 43.93454825023258,
+  "delta": 1.1573112758634778,
+  "kelp_km2": 18231.20181979022,
+  "kelp_share": 13.632547638917622,
+  "gw": {
+   "PV": 83.6,
+   "Onshore wind": 44.2,
+   "Nuclear (new)": 0.3
+  }
+ },
+ "No HVO/FAME/crop ethanol": {
+  "cost": 43.29673326209887,
+  "delta": 0.5194962877297655,
+  "kelp_km2": 26129.59686591685,
+  "kelp_share": 19.534404745962913,
+  "gw": {
+   "PV": 59.0,
+   "Onshore wind": 48.3,
+   "Nuclear (new)": 0.4
+  }
+ },
+ "Kelp area capped at 10% of deep Atlantic": {
+  "cost": 43.196775266577326,
+  "delta": 0.41953829220822314,
+  "kelp_km2": 16260.658458356324,
+  "kelp_share": 12.119478263887167,
+  "gw": {
+   "PV": 77.2,
+   "Onshore wind": 43.1,
+   "Nuclear (new)": 0.2
+  }
+ },
+ "No kelp at all": {
+  "cost": 48.37400685508864,
+  "delta": 5.596769880719535,
+  "kelp_km2": 0,
+  "kelp_share": 0.0,
+  "gw": {
+   "PV": 171.8,
+   "Onshore wind": 34.9
+  }
+ },
+ "PV +50% integration cost": {
+  "cost": 43.16811747352316,
+  "delta": 0.39088049915405776,
+  "kelp_km2": 21029.500352217823,
+  "kelp_share": 15.723498773267536,
+  "gw": {
+   "PV": 37.6,
+   "Onshore wind": 60.0,
+   "Nuclear (new)": 0.3
+  }
+ },
+ "Offshore wind LCOE 70": {
+  "cost": 42.7772369743691,
+  "delta": 0.0,
+  "kelp_km2": 18231.20181979022,
+  "kelp_share": 13.632547638917622,
+  "gw": {
+   "PV": 68.4,
+   "Onshore wind": 44.2,
+   "Nuclear (new)": 0.3
+  }
+ },
+ "New nuclear LCOE 70": {
+  "cost": 42.66391360028858,
+  "delta": -0.1133233740805224,
+  "kelp_km2": 18231.20181979022,
+  "kelp_share": 13.632547638917622,
+  "gw": {
+   "PV": 68.4,
+   "Onshore wind": 42.5,
+   "Nuclear (new)": 0.6
+  }
+ }
+}

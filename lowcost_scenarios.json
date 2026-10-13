@@ -1,0 +1,2867 @@
+{
+ "LC_kelp_biofuels": {
+  "total_cost_beur": 43.7636760535858,
+  "generation_twh": {
+   "PV": 67.449522935955,
+   "Onshore wind": 124.62290360385153,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.948033897922519
+  },
+  "capacity_gw": {
+   "PV": 37.55959624454561,
+   "Onshore wind": 52.69021799587837,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.5007653345918974
+  },
+  "electricity_delivered_twh": 192.07242653980654,
+  "heat_twh_th": {
+   "nuclear steam": 13.160112993075064,
+   "heat pumps": 19.7401694896126,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_EH|wet": 1740.5618547308495,
+   "nor_deep|0-100|NUC_H|wet": 30261.40949312414
+  },
+  "kelp_total_km2": 35191.57134785499,
+  "kelp_dry_mt": 70.38314269570999,
+  "kelp_wet_mt": 541.408789967,
+  "kelp_ethanol_twh": 4.7005721750487846,
+  "kelp_ethanol_mt": 0.6314201429170008,
+  "kelp_hc_twh": 129.9076568451997,
+  "kelp_ch4_gross_twh": 21.37749113043132,
+  "kelp_fleet_fuel_twh": 9.062163073106708,
+  "skysails_saved_twh": 0.24659528147177945,
+  "kelp_refinery_el_twh": 34.28852999739482,
+  "kelp_refinery_heat_twh": 32.900282482687665,
+  "kelp_co2_mt": 0.6039670932249573,
+  "fertiliser_mt": {
+   "N": 0.8445977123485198,
+   "P": 0.168919542469704,
+   "K": 2.5337931370455595
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.8445977123485198,
+   "P": 0.16891954246970398,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.6111471599220746,
+  "fertiliser_energy_avoided_pj": 56.58804672735083,
+  "fertiliser_co2_avoided_mt": 4.054069019272895,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 541.4087899669998,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 32001.97134785499
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 33451.00949312414,
+   "NUC_EH": 1740.5618547308495
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 33831.07134785499
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 35191.57134785499
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": -0.0,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 5.735529261920126,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 0.0,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 129.9076568451997,
+   "kelp ethanol": 4.7005721750487846,
+   "kelp biomethane (net of fleet)": 12.315328057324612
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|lng": 37.31532805732461,
+   "shipping|liq": 38.06644972045318,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 0.0,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 0.0,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 130.73804739101158,
+   "jet": 73.59322122331533,
+   "ethanol": 154.78325951817965,
+   "methane": 127.73804739101158,
+   "methanol": 130.73804739101158,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 78.50145573419272,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 18.603020441469774,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    11.988087610018557,
+    25.656055413627026
+   ],
+   "avoided_wtw_mtco2e": 165.72548213693022,
+   "reduction_pct": 89.90768102531653,
+   "reduction_factor_sensitivity_pct": [
+    86.08134116278909,
+    93.49634622843001
+   ],
+   "electricity_ci_gco2e_kwh": 19.918075485642515,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -137.30359128880826,
+   "avg2025": 23.577434100874537
+  },
+  "kelp_share_pct": 26.35453451879352,
+  "build": {
+   "PV (GW)": 37.55959624454561,
+   "Onshore wind (GW)": 52.69021799587837,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.5007653345918974,
+   "New nuclear (1.1 GW units)": 0.45524121326536127,
+   "Electrolysers (GW)": 0.0,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 35191.57134785499,
+   "Kelp (Mt dry/yr)": 70.38314269570999,
+   "Kelp (Mt wet/yr)": 541.408789967,
+   "Biorefineries (2 Mt dry/yr each)": 35.191571347854996,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 541.408789967,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 16.901818310045524,
+    "Onshore wind": 60.59375069526013,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 4.006122676735179,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 0.0,
+    "E-fuel synthesis": 0.0,
+    "DAC": 0.0,
+    "Kelp farms": 121.58629685227795,
+    "Biorefineries": 116.13218544792149,
+    "Vessels": 32.48452739802,
+    "ATJ plants": 0.6547407833242153,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 404.82018222488284,
+   "capex_per_year_2027_2050_beur": 16.86750759270345
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "Kelp + existing biofuels supply all liquid fuel;\ne-fuels only for ships"
+ },
+ "LC_no_efuels": {
+  "total_cost_beur": 43.7636760535858,
+  "generation_twh": {
+   "PV": 67.449522935955,
+   "Onshore wind": 124.62290360385155,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.9480338979225222
+  },
+  "capacity_gw": {
+   "PV": 37.55959624454561,
+   "Onshore wind": 52.69021799587838,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.5007653345918978
+  },
+  "electricity_delivered_twh": 192.07242653980654,
+  "heat_twh_th": {
+   "nuclear steam": 13.160112993075074,
+   "heat pumps": 19.740169489612605,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_EH|wet": 1740.56185473084,
+   "nor_slope|0-100|NUC_H|wet": 88.53814526916017,
+   "nor_deep|0-100|NUC_H|wet": 32001.971347855004
+  },
+  "kelp_total_km2": 35191.571347855,
+  "kelp_dry_mt": 70.38314269571,
+  "kelp_wet_mt": 541.4087899670001,
+  "kelp_ethanol_twh": 4.700572175048759,
+  "kelp_ethanol_mt": 0.6314201429169974,
+  "kelp_hc_twh": 129.9076568451998,
+  "kelp_ch4_gross_twh": 21.37749113043133,
+  "kelp_fleet_fuel_twh": 9.062163073106712,
+  "skysails_saved_twh": 0.24659528147177956,
+  "kelp_refinery_el_twh": 34.28852999739483,
+  "kelp_refinery_heat_twh": 32.90028248268767,
+  "kelp_co2_mt": 0.6039670932249541,
+  "fertiliser_mt": {
+   "N": 0.8445977123485202,
+   "P": 0.16891954246970406,
+   "K": 2.5337931370455604
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.8445977123485201,
+   "P": 0.16891954246970403,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.611147159922075,
+  "fertiliser_energy_avoided_pj": 56.58804672735084,
+  "fertiliser_co2_avoided_mt": 4.054069019272897,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 541.408789967,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 32001.971347855004
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 33451.00949312416,
+   "NUC_EH": 1740.56185473084
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 33831.071347855
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 35191.571347855
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 0.0,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 5.735529261920102,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 0.0,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 129.9076568451998,
+   "kelp ethanol": 4.700572175048759,
+   "kelp biomethane (net of fleet)": 12.315328057324619
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|lng": 37.315328057324614,
+   "shipping|liq": 38.06644972045317,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 0.0,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 0.0,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 130.73804739101158,
+   "jet": 73.59322122331537,
+   "ethanol": 154.78325951817965,
+   "methane": 127.73804739101158,
+   "methanol": 130.73804739101158,
+   "ammonia": 121.27433084858245,
+   "heat": 28.683899502774633,
+   "el_flex": 0.0,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 78.50145573419272,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 18.603020441469777,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    11.988087610018558,
+    25.65605541362703
+   ],
+   "avoided_wtw_mtco2e": 165.72548213693022,
+   "reduction_pct": 89.90768102531653,
+   "reduction_factor_sensitivity_pct": [
+    86.08134116278909,
+    93.49634622843001
+   ],
+   "electricity_ci_gco2e_kwh": 19.918075485642515,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -137.30359128880826,
+   "avg2025": 23.577434100874537
+  },
+  "kelp_share_pct": 26.354534518793532,
+  "build": {
+   "PV (GW)": 37.55959624454561,
+   "Onshore wind (GW)": 52.69021799587838,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.5007653345918978,
+   "New nuclear (1.1 GW units)": 0.45524121326536154,
+   "Electrolysers (GW)": 0.0,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 35191.571347855,
+   "Kelp (Mt dry/yr)": 70.38314269571,
+   "Kelp (Mt wet/yr)": 541.4087899670001,
+   "Biorefineries (2 Mt dry/yr each)": 35.191571347855,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 541.4087899670001,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 16.901818310045524,
+    "Onshore wind": 60.593750695260134,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 4.006122676735182,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 0.0,
+    "E-fuel synthesis": 0.0,
+    "DAC": 0.0,
+    "Kelp farms": 121.58629685227801,
+    "Biorefineries": 116.13218544792151,
+    "Vessels": 32.484527398020006,
+    "ATJ plants": 0.6547407833242126,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 404.82018222488296,
+   "capex_per_year_2027_2050_beur": 16.867507592703458
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 no electricity-based fuels at all"
+ },
+ "LC_efuels_free": {
+  "total_cost_beur": 42.7772369743691,
+  "generation_twh": {
+   "PV": 122.77454384388537,
+   "Onshore wind": 104.5707271521846,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 2.010955038914866
+  },
+  "capacity_gw": {
+   "PV": 68.36760432335748,
+   "Onshore wind": 44.21221340782369,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.25506786389077446
+  },
+  "electricity_delivered_twh": 227.34527099606998,
+  "heat_twh_th": {
+   "nuclear steam": 6.7031834630495535,
+   "heat pumps": 10.054775194574331,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_H|wet": 15041.601819790223
+  },
+  "kelp_total_km2": 18231.20181979022,
+  "kelp_dry_mt": 36.462403639580444,
+  "kelp_wet_mt": 280.48002799677266,
+  "kelp_ethanol_twh": 0.0,
+  "kelp_ethanol_mt": 0.0,
+  "kelp_hc_twh": 69.24648000000002,
+  "kelp_ch4_gross_twh": 11.421847940098573,
+  "kelp_fleet_fuel_twh": 4.668412642374715,
+  "skysails_saved_twh": 0.1248285258856734,
+  "kelp_refinery_el_twh": 18.110511263743213,
+  "kelp_refinery_heat_twh": 16.757958657623888,
+  "kelp_co2_mt": 0.0,
+  "fertiliser_mt": {
+   "N": 0.4375488436749654,
+   "P": 0.08750976873499308,
+   "K": 1.312646531024896
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.4375488436749654,
+   "P": 0.08750976873499308,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 1.3940710425881462,
+  "fertiliser_energy_avoided_pj": 29.315772526222684,
+  "fertiliser_co2_avoided_mt": 2.100234449639834,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 280.48002799677266,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 15041.601819790223
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 18231.20181979022
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 16870.70181979022
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 18231.20181979022
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 25.50720253933332,
+   "e_methane": 5.937453591165035,
+   "ATJ_jet_from_ethanol": 0.0,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 30.0,
+   "FAME_biodiesel_existing": 10.3,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 69.24648000000002,
+   "kelp ethanol": 0.0,
+   "kelp biomethane (net of fleet)": 6.753435297723858
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 11.216239624761899,
+   "hdv|ed95": 1.4285714285714286,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|nh3": 24.292573846984112,
+   "shipping|lng": 37.69088888888889,
+   "shipping|liq": 13.39831504190478,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 55.32502090793037,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 10.908835587906568,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 150.11684247803657,
+   "jet": 20.570227495080726,
+   "ethanol": 137.25413569336817,
+   "methane": 146.65897160624124,
+   "methanol": 150.11684247803657,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 76.73202248053298,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 17.52225562153483,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    11.38224260102361,
+    26.29140056757109
+   ],
+   "avoided_wtw_mtco2e": 166.80624695686515,
+   "reduction_pct": 90.49400641982531,
+   "reduction_factor_sensitivity_pct": [
+    85.73666025611604,
+    93.82502302041843
+   ],
+   "electricity_ci_gco2e_kwh": 25.75740401237938,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -142.3276608508897,
+   "avg2025": 17.510990193657257
+  },
+  "kelp_share_pct": 13.632547638917622,
+  "build": {
+   "PV (GW)": 68.36760432335748,
+   "Onshore wind (GW)": 44.21221340782369,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.25506786389077446,
+   "New nuclear (1.1 GW units)": 0.2318798762643404,
+   "Electrolysers (GW)": 10.908835587906568,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 18231.20181979022,
+   "Kelp (Mt dry/yr)": 36.462403639580444,
+   "Kelp (Mt wet/yr)": 280.48002799677266,
+   "Biorefineries (2 Mt dry/yr each)": 18.231201819790222,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 280.48002799677266,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 30.76542194551087,
+    "Onshore wind": 50.84404541899725,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 2.0405429111261957,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 10.908835587906568,
+    "E-fuel synthesis": 5.873846101587487,
+    "DAC": 0.0,
+    "Kelp farms": 60.5289665512448,
+    "Biorefineries": 60.16296600530773,
+    "Vessels": 16.82880167980636,
+    "ATJ plants": 0.0,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 290.4141662627856,
+   "capex_per_year_2027_2050_beur": 12.100590260949401
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 e-fuels may also supply liquids\n(optimiser chooses)"
+ },
+ "LC_efuels_cement_co2": {
+  "total_cost_beur": 42.7772369743691,
+  "generation_twh": {
+   "PV": 122.77454384388537,
+   "Onshore wind": 104.5707271521846,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 2.010955038914866
+  },
+  "capacity_gw": {
+   "PV": 68.36760432335748,
+   "Onshore wind": 44.21221340782369,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.25506786389077446
+  },
+  "electricity_delivered_twh": 227.34527099606998,
+  "heat_twh_th": {
+   "nuclear steam": 6.7031834630495535,
+   "heat pumps": 10.054775194574331,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_H|wet": 15041.601819790223
+  },
+  "kelp_total_km2": 18231.20181979022,
+  "kelp_dry_mt": 36.462403639580444,
+  "kelp_wet_mt": 280.48002799677266,
+  "kelp_ethanol_twh": 0.0,
+  "kelp_ethanol_mt": 0.0,
+  "kelp_hc_twh": 69.24648000000002,
+  "kelp_ch4_gross_twh": 11.421847940098573,
+  "kelp_fleet_fuel_twh": 4.668412642374715,
+  "skysails_saved_twh": 0.1248285258856734,
+  "kelp_refinery_el_twh": 18.110511263743213,
+  "kelp_refinery_heat_twh": 16.757958657623888,
+  "kelp_co2_mt": 0.0,
+  "fertiliser_mt": {
+   "N": 0.4375488436749654,
+   "P": 0.08750976873499308,
+   "K": 1.312646531024896
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.4375488436749654,
+   "P": 0.08750976873499308,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 1.3940710425881462,
+  "fertiliser_energy_avoided_pj": 29.315772526222684,
+  "fertiliser_co2_avoided_mt": 2.100234449639834,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 280.48002799677266,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 15041.601819790223
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 18231.20181979022
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 16870.70181979022
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 18231.20181979022
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 25.50720253933332,
+   "e_methane": 5.937453591165035,
+   "ATJ_jet_from_ethanol": 0.0,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 30.0,
+   "FAME_biodiesel_existing": 10.3,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 69.24648000000002,
+   "kelp ethanol": 0.0,
+   "kelp biomethane (net of fleet)": 6.753435297723858
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 11.216239624761899,
+   "hdv|ed95": 1.4285714285714286,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|nh3": 24.292573846984112,
+   "shipping|lng": 37.69088888888889,
+   "shipping|liq": 13.39831504190478,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 55.32502090793037,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 10.908835587906568,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 150.11684247803657,
+   "jet": 20.570227495080726,
+   "ethanol": 137.25413569336817,
+   "methane": 146.65897160624124,
+   "methanol": 150.11684247803657,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 76.73202248053298,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 17.52225562153483,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    11.38224260102361,
+    26.29140056757109
+   ],
+   "avoided_wtw_mtco2e": 166.80624695686515,
+   "reduction_pct": 90.49400641982531,
+   "reduction_factor_sensitivity_pct": [
+    85.73666025611604,
+    93.82502302041843
+   ],
+   "electricity_ci_gco2e_kwh": 25.75740401237938,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -142.3276608508897,
+   "avg2025": 17.510990193657257
+  },
+  "kelp_share_pct": 13.632547638917622,
+  "build": {
+   "PV (GW)": 68.36760432335748,
+   "Onshore wind (GW)": 44.21221340782369,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.25506786389077446,
+   "New nuclear (1.1 GW units)": 0.2318798762643404,
+   "Electrolysers (GW)": 10.908835587906568,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 18231.20181979022,
+   "Kelp (Mt dry/yr)": 36.462403639580444,
+   "Kelp (Mt wet/yr)": 280.48002799677266,
+   "Biorefineries (2 Mt dry/yr each)": 18.231201819790222,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 280.48002799677266,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 30.76542194551087,
+    "Onshore wind": 50.84404541899725,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 2.0405429111261957,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 10.908835587906568,
+    "E-fuel synthesis": 5.873846101587487,
+    "DAC": 0.0,
+    "Kelp farms": 60.5289665512448,
+    "Biorefineries": 60.16296600530773,
+    "Vessels": 16.82880167980636,
+    "ATJ plants": 0.0,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 290.4141662627856,
+   "capex_per_year_2027_2050_beur": 12.100590260949401
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 plus cement CO2 stream (7 Mt/yr)"
+ },
+ "LC_wind_heat_30": {
+  "total_cost_beur": 43.7636760535858,
+  "generation_twh": {
+   "PV": 67.449522935955,
+   "Onshore wind": 124.62290360385154,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.94803389792252
+  },
+  "capacity_gw": {
+   "PV": 37.55959624454561,
+   "Onshore wind": 52.69021799587837,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.5007653345918975
+  },
+  "electricity_delivered_twh": 192.07242653980654,
+  "heat_twh_th": {
+   "nuclear steam": 13.160112993075067,
+   "heat pumps": 19.740169489612605,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_EH|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_EH|wet": 380.06185473084633,
+   "nor_deep|0-100|NUC_H|wet": 31621.909493124153
+  },
+  "kelp_total_km2": 35191.571347855,
+  "kelp_dry_mt": 70.38314269571,
+  "kelp_wet_mt": 541.4087899670001,
+  "kelp_ethanol_twh": 4.700572175048775,
+  "kelp_ethanol_mt": 0.6314201429169997,
+  "kelp_hc_twh": 129.90765684519977,
+  "kelp_ch4_gross_twh": 21.377491130431324,
+  "kelp_fleet_fuel_twh": 9.06216307310671,
+  "skysails_saved_twh": 0.24659528147177953,
+  "kelp_refinery_el_twh": 34.288529997394825,
+  "kelp_refinery_heat_twh": 32.90028248268767,
+  "kelp_co2_mt": 0.6039670932249562,
+  "fertiliser_mt": {
+   "N": 0.8445977123485199,
+   "P": 0.16891954246970403,
+   "K": 2.53379313704556
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.84459771234852,
+   "P": 0.168919542469704,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.611147159922075,
+  "fertiliser_energy_avoided_pj": 56.588046727350836,
+  "fertiliser_co2_avoided_mt": 4.054069019272896,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 541.408789967,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 32001.971347855
+  },
+  "kelp_by_route_km2": {
+   "NUC_EH": 1740.5618547308463,
+   "NUC_H": 33451.009493124155
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 33831.071347855
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 35191.571347855
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": -0.0,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 5.735529261920117,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 0.0,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 129.90765684519977,
+   "kelp ethanol": 4.700572175048775,
+   "kelp biomethane (net of fleet)": 12.315328057324614
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|lng": 37.315328057324614,
+   "shipping|liq": 38.06644972045317,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 0.0,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 0.0,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 130.73804739101158,
+   "jet": 73.59322122331533,
+   "ethanol": 154.78325951817965,
+   "methane": 127.73804739101158,
+   "methanol": 130.73804739101158,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 78.50145573419272,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 18.603020441469777,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    11.988087610018558,
+    25.65605541362703
+   ],
+   "avoided_wtw_mtco2e": 165.72548213693022,
+   "reduction_pct": 89.90768102531653,
+   "reduction_factor_sensitivity_pct": [
+    86.08134116278909,
+    93.49634622843001
+   ],
+   "electricity_ci_gco2e_kwh": 19.918075485642515,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -137.30359128880826,
+   "avg2025": 23.577434100874537
+  },
+  "kelp_share_pct": 26.35453451879353,
+  "build": {
+   "PV (GW)": 37.55959624454561,
+   "Onshore wind (GW)": 52.69021799587837,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.5007653345918975,
+   "New nuclear (1.1 GW units)": 0.4552412132653614,
+   "Electrolysers (GW)": 0.0,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 35191.571347855,
+   "Kelp (Mt dry/yr)": 70.38314269571,
+   "Kelp (Mt wet/yr)": 541.4087899670001,
+   "Biorefineries (2 Mt dry/yr each)": 35.191571347855,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 541.4087899670001,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 16.901818310045524,
+    "Onshore wind": 60.59375069526013,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 4.00612267673518,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 0.0,
+    "E-fuel synthesis": 0.0,
+    "DAC": 0.0,
+    "Kelp farms": 121.58629685227801,
+    "Biorefineries": 116.13218544792151,
+    "Vessels": 32.484527398020006,
+    "ATJ plants": 0.6547407833242143,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 404.8201822248829,
+   "capex_per_year_2027_2050_beur": 16.867507592703454
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "Kelp + biofuels, with wind-turbine waste heat\n(30% of onshore turbines connected)"
+ },
+ "LC_wind_heat_100": {
+  "total_cost_beur": 43.7636760535858,
+  "generation_twh": {
+   "PV": 67.449522935955,
+   "Onshore wind": 124.62290360385154,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.94803389792252
+  },
+  "capacity_gw": {
+   "PV": 37.55959624454561,
+   "Onshore wind": 52.69021799587837,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.5007653345918975
+  },
+  "electricity_delivered_twh": 192.07242653980654,
+  "heat_twh_th": {
+   "nuclear steam": 13.160112993075067,
+   "heat pumps": 19.740169489612605,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_EH|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_EH|wet": 380.06185473084633,
+   "nor_deep|0-100|NUC_H|wet": 31621.909493124153
+  },
+  "kelp_total_km2": 35191.571347855,
+  "kelp_dry_mt": 70.38314269571,
+  "kelp_wet_mt": 541.4087899670001,
+  "kelp_ethanol_twh": 4.700572175048775,
+  "kelp_ethanol_mt": 0.6314201429169997,
+  "kelp_hc_twh": 129.90765684519977,
+  "kelp_ch4_gross_twh": 21.377491130431324,
+  "kelp_fleet_fuel_twh": 9.06216307310671,
+  "skysails_saved_twh": 0.24659528147177953,
+  "kelp_refinery_el_twh": 34.288529997394825,
+  "kelp_refinery_heat_twh": 32.90028248268767,
+  "kelp_co2_mt": 0.6039670932249562,
+  "fertiliser_mt": {
+   "N": 0.8445977123485199,
+   "P": 0.16891954246970403,
+   "K": 2.53379313704556
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.84459771234852,
+   "P": 0.168919542469704,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.611147159922075,
+  "fertiliser_energy_avoided_pj": 56.588046727350836,
+  "fertiliser_co2_avoided_mt": 4.054069019272896,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 541.408789967,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 32001.971347855
+  },
+  "kelp_by_route_km2": {
+   "NUC_EH": 1740.5618547308463,
+   "NUC_H": 33451.009493124155
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 33831.071347855
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 35191.571347855
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": -0.0,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 5.735529261920117,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 0.0,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 129.90765684519977,
+   "kelp ethanol": 4.700572175048775,
+   "kelp biomethane (net of fleet)": 12.315328057324614
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|lng": 37.315328057324614,
+   "shipping|liq": 38.06644972045317,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 0.0,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 0.0,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 130.73804739101158,
+   "jet": 73.59322122331533,
+   "ethanol": 154.78325951817965,
+   "methane": 127.73804739101158,
+   "methanol": 130.73804739101158,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 78.50145573419272,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 18.603020441469777,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    11.988087610018558,
+    25.65605541362703
+   ],
+   "avoided_wtw_mtco2e": 165.72548213693022,
+   "reduction_pct": 89.90768102531653,
+   "reduction_factor_sensitivity_pct": [
+    86.08134116278909,
+    93.49634622843001
+   ],
+   "electricity_ci_gco2e_kwh": 19.918075485642515,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -137.30359128880826,
+   "avg2025": 23.577434100874537
+  },
+  "kelp_share_pct": 26.35453451879353,
+  "build": {
+   "PV (GW)": 37.55959624454561,
+   "Onshore wind (GW)": 52.69021799587837,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.5007653345918975,
+   "New nuclear (1.1 GW units)": 0.4552412132653614,
+   "Electrolysers (GW)": 0.0,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 35191.571347855,
+   "Kelp (Mt dry/yr)": 70.38314269571,
+   "Kelp (Mt wet/yr)": 541.4087899670001,
+   "Biorefineries (2 Mt dry/yr each)": 35.191571347855,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 541.4087899670001,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 16.901818310045524,
+    "Onshore wind": 60.59375069526013,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 4.00612267673518,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 0.0,
+    "E-fuel synthesis": 0.0,
+    "DAC": 0.0,
+    "Kelp farms": 121.58629685227801,
+    "Biorefineries": 116.13218544792151,
+    "Vessels": 32.484527398020006,
+    "ATJ plants": 0.6547407833242143,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 404.8201822248829,
+   "capex_per_year_2027_2050_beur": 16.867507592703454
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 every onshore turbine connected"
+ },
+ "LC_force_press": {
+  "total_cost_beur": 44.70954388997285,
+  "generation_twh": {
+   "PV": 67.449522935955,
+   "Onshore wind": 121.77503661854888,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.8391057972061007
+  },
+  "capacity_gw": {
+   "PV": 37.55959624454561,
+   "Onshore wind": 51.486147733193334,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.4869489849322806
+  },
+  "electricity_delivered_twh": 189.22455955450388,
+  "heat_twh_th": {
+   "nuclear steam": 12.797019324020336,
+   "heat pumps": 19.195528986030517,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|press": 1360.5,
+   "nor_slope|0-100|NUC_H|press": 1829.1000000000001,
+   "nor_deep|0-100|NUC_EH|press": 4776.79558280705,
+   "nor_deep|0-100|NUC_H|press": 25462.853424440484
+  },
+  "kelp_total_km2": 33429.249007247534,
+  "kelp_dry_mt": 66.85849801449507,
+  "kelp_wet_mt": 514.296138573039,
+  "kelp_ethanol_twh": 11.290629357386573,
+  "kelp_ethanol_mt": 1.5166517047235695,
+  "kelp_hc_twh": 114.66814961104356,
+  "kelp_ch4_gross_twh": 18.754016035871047,
+  "kelp_fleet_fuel_twh": 7.59498363805276,
+  "skysails_saved_twh": 0.12165020962705748,
+  "kelp_refinery_el_twh": 31.658519213525,
+  "kelp_refinery_heat_twh": 31.99254831005086,
+  "kelp_co2_mt": 1.4507103262573273,
+  "fertiliser_mt": {
+   "N": 0.8023019761739407,
+   "P": 0.16046039523478817,
+   "K": 2.4069059285218226
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.8023019761739408,
+   "P": 0.1604603952347882,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.4846829087600835,
+  "fertiliser_energy_avoided_pj": 53.754232403654036,
+  "fertiliser_co2_avoided_mt": 3.851049485634916,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 267.4339920579803,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 30239.649007247535
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 28652.453424440486,
+   "NUC_EH": 4776.79558280705
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 32068.749007247534
+  },
+  "kelp_by_preprocess_km2": {
+   "press": 33429.249007247534
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": -0.0,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 11.83133215558258,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 10.3,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 114.66814961104356,
+   "kelp ethanol": 11.290629357386573,
+   "kelp biomethane (net of fleet)": 11.159032397818287
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|lng": 36.159032397818294,
+   "shipping|liq": 39.22274537995949,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 0.0,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 0.0,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 141.2525445635231,
+   "jet": 63.774055701584054,
+   "ethanol": 155.42644129515133,
+   "methane": 138.2525445635231,
+   "methanol": 141.2525445635231,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 80.19811398560692,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 19.326173647721514,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    12.566632907682607,
+    26.792584828379095
+   ],
+   "avoided_wtw_mtco2e": 165.0023289306785,
+   "reduction_pct": 89.51536339883108,
+   "reduction_factor_sensitivity_pct": [
+    85.46476293486762,
+    93.18247979455175
+   ],
+   "electricity_ci_gco2e_kwh": 20.079169327357036,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -132.17289822766767,
+   "avg2025": 29.413217993699657
+  },
+  "kelp_share_pct": 24.595620774994263,
+  "build": {
+   "PV (GW)": 37.55959624454561,
+   "Onshore wind (GW)": 51.486147733193334,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.4869489849322806,
+   "New nuclear (1.1 GW units)": 0.44268089539298233,
+   "Electrolysers (GW)": 0.0,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 33429.249007247534,
+   "Kelp (Mt dry/yr)": 66.85849801449507,
+   "Kelp (Mt wet/yr)": 514.296138573039,
+   "Biorefineries (2 Mt dry/yr each)": 33.429249007247535,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 514.296138573039,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 16.901818310045524,
+    "Onshore wind": 59.209069893172334,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 3.895591879458245,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 0.0,
+    "E-fuel synthesis": 0.0,
+    "DAC": 0.0,
+    "Kelp farms": 115.24193642609113,
+    "Biorefineries": 110.31652172391686,
+    "Vessels": 30.85776831438234,
+    "ATJ plants": 1.3506086935596553,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 390.2340553019244,
+   "capex_per_year_2027_2050_beur": 16.25975230424685
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 every farm presses kelp at sea"
+ },
+ "LC_force_hpdry": {
+  "total_cost_beur": 48.67736728809286,
+  "generation_twh": {
+   "PV": 177.70634596470822,
+   "Onshore wind": 100.16985492510803,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 2.701771365854635
+  },
+  "capacity_gw": {
+   "PV": 98.95664660023847,
+   "Onshore wind": 42.35153683625403,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.342690431995768
+  },
+  "electricity_delivered_twh": 277.87620088981623,
+  "heat_twh_th": {
+   "nuclear steam": 9.005904552848783,
+   "heat pumps": 13.508856829273164,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_EH|press_hpdry": 1360.5,
+   "nor_slope|0-100|NUC_EH|press_hpdry": 1829.1000000000001,
+   "nor_deep|0-100|NUC_EH|press_hpdry": 15632.93325819451
+  },
+  "kelp_total_km2": 18822.53325819451,
+  "kelp_dry_mt": 37.64506651638902,
+  "kelp_wet_mt": 289.577434741454,
+  "kelp_ethanol_twh": 45.96044343134251,
+  "kelp_ethanol_mt": 6.173790908687799,
+  "kelp_hc_twh": 34.49420456502047,
+  "kelp_ch4_gross_twh": 5.083798921631597,
+  "kelp_fleet_fuel_twh": 3.827733199503192,
+  "skysails_saved_twh": 0.018644019675164682,
+  "kelp_refinery_el_twh": 12.328006382787075,
+  "kelp_refinery_heat_twh": 22.514761382121943,
+  "kelp_co2_mt": 5.905365217005722,
+  "fertiliser_mt": {
+   "N": 0.4517407981966683,
+   "P": 0.09034815963933367,
+   "K": 1.3552223945900046
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.45174079819666824,
+   "P": 0.09034815963933365,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 1.4365049866080377,
+  "fertiliser_energy_avoided_pj": 30.266633479176775,
+  "fertiliser_co2_avoided_mt": 2.168355831344008,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 41.82785168487669,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 15632.93325819451
+  },
+  "kelp_by_route_km2": {
+   "NUC_EH": 18822.53325819451
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 17462.033258194508
+  },
+  "kelp_by_preprocess_km2": {
+   "press_hpdry": 18822.53325819451
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 39.575433333333336,
+   "e_methane": 22.77767483078881,
+   "ATJ_jet_from_ethanol": 43.90091017399182,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 8.869938316719546,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 34.49420456502047,
+   "kelp ethanol": 45.96044343134251,
+   "kelp biomethane (net of fleet)": 1.2560657221284046
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|cng": 10.311683330934837,
+   "offroad|liq": 16.921650002398497,
+   "aviation|jet": 69.698592,
+   "shipping|nh3": 37.69088888888889,
+   "shipping|lng": 37.69088888888889,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 110.25682302875322,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 21.7401373759476,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 166.46409823837908,
+   "jet": 88.68411646079275,
+   "ethanol": 201.7889346466612,
+   "methane": 146.65897160624124,
+   "methanol": 150.11684247803657,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 87.31543000968189,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 20.43805641643324,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    13.255407410725084,
+    31.643755381148765
+   ],
+   "avoided_wtw_mtco2e": 163.89044616196674,
+   "reduction_pct": 88.91215621537401,
+   "reduction_factor_sensitivity_pct": [
+    82.83295587035445,
+    92.80881294791227
+   ],
+   "electricity_ci_gco2e_kwh": 28.77009439082557,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -108.85938167091876,
+   "avg2025": 53.82298404208784
+  },
+  "kelp_share_pct": 14.65692682700469,
+  "build": {
+   "PV (GW)": 98.95664660023847,
+   "Onshore wind (GW)": 42.35153683625403,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.342690431995768,
+   "New nuclear (1.1 GW units)": 0.31153675635978906,
+   "Electrolysers (GW)": 21.7401373759476,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 18822.53325819451,
+   "Kelp (Mt dry/yr)": 37.64506651638902,
+   "Kelp (Mt wet/yr)": 289.577434741454,
+   "Biorefineries (2 Mt dry/yr each)": 18.82253325819451,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 289.577434741454,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 44.53049097010731,
+    "Onshore wind": 48.70426736169213,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 2.741523455966144,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 21.7401373759476,
+    "E-fuel synthesis": 11.64752954497923,
+    "DAC": 0.0,
+    "Kelp farms": 62.657759729500235,
+    "Biorefineries": 62.114359752041885,
+    "Vessels": 17.37464608448724,
+    "ATJ plants": 5.0115194262547735,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 328.98297376227487,
+   "capex_per_year_2027_2050_beur": 13.707623906761453
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 every farm dries kelp offshore with\nwind-powered heat-pump dryers"
+ },
+ "LC_force_fan": {
+  "total_cost_beur": 48.4679639193854,
+  "generation_twh": {
+   "PV": 174.45698341130213,
+   "Onshore wind": 100.6405689338809,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 2.7131390520271843
+  },
+  "capacity_gw": {
+   "PV": 97.14722319373101,
+   "Onshore wind": 42.550553413614445,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.344132299851241
+  },
+  "electricity_delivered_twh": 275.09755234518303,
+  "heat_twh_th": {
+   "nuclear steam": 9.043796840090614,
+   "heat pumps": 13.565695260135914,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_EH|press_fan": 1360.5,
+   "nor_slope|0-100|NUC_EH|press_fan": 1829.1000000000001,
+   "nor_deep|0-100|NUC_EH|press_fan": 15907.126496791177
+  },
+  "kelp_total_km2": 19096.726496791176,
+  "kelp_dry_mt": 38.193452993582355,
+  "kelp_wet_mt": 293.7957922583258,
+  "kelp_ethanol_twh": 45.13780359174349,
+  "kelp_ethanol_mt": 6.063287049637186,
+  "kelp_hc_twh": 36.39655919409318,
+  "kelp_ch4_gross_twh": 5.364170321227458,
+  "kelp_fleet_fuel_twh": 4.096551830808677,
+  "skysails_saved_twh": 0.042588828492512755,
+  "kelp_refinery_el_twh": 12.775985019214852,
+  "kelp_refinery_heat_twh": 22.609492100226525,
+  "kelp_co2_mt": 5.799665873566004,
+  "fertiliser_mt": {
+   "N": 0.4583214359229883,
+   "P": 0.09166428718459767,
+   "K": 1.3749643077689648
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.4583214359229883,
+   "P": 0.09166428718459767,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 1.456181093409735,
+  "fertiliser_energy_avoided_pj": 30.707536206840217,
+  "fertiliser_co2_avoided_mt": 2.199942892430344,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 95.48363248395589,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 15907.126496791177
+  },
+  "kelp_by_route_km2": {
+   "NUC_EH": 19096.726496791176
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 17736.226496791176
+  },
+  "kelp_by_preprocess_km2": {
+   "press_fan": 19096.726496791176
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 39.575433333333336,
+   "e_methane": 20.972473412229874,
+   "ATJ_jet_from_ethanol": 43.13996832236273,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 9.359115221338243,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 36.39655919409318,
+   "kelp ethanol": 45.13780359174349,
+   "kelp biomethane (net of fleet)": 1.2676184904187808
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|cng": 8.681093648872515,
+   "offroad|liq": 18.55223968446082,
+   "aviation|jet": 69.698592,
+   "shipping|nh3": 37.69088888888889,
+   "shipping|lng": 37.69088888888889,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 107.00746047534713,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 21.099436997007007,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 166.46409823837908,
+   "jet": 85.04939802003697,
+   "ethanol": 198.4268200889621,
+   "methane": 146.65897160624124,
+   "methanol": 150.11684247803657,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 86.93981098583545,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 20.397306124731905,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    13.230289004631858,
+    31.523759514371747
+   ],
+   "avoided_wtw_mtco2e": 163.9311964536681,
+   "reduction_pct": 88.9342636437594,
+   "reduction_factor_sensitivity_pct": [
+    82.89805479162733,
+    92.82243992677984
+   ],
+   "electricity_ci_gco2e_kwh": 28.60507007917589,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -110.10970693898251,
+   "avg2025": 52.53221891876235
+  },
+  "kelp_share_pct": 14.8526738473763,
+  "build": {
+   "PV (GW)": 97.14722319373101,
+   "Onshore wind (GW)": 42.550553413614445,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.344132299851241,
+   "New nuclear (1.1 GW units)": 0.31284754531930997,
+   "Electrolysers (GW)": 21.099436997007007,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 19096.726496791176,
+   "Kelp (Mt dry/yr)": 38.193452993582355,
+   "Kelp (Mt wet/yr)": 293.7957922583258,
+   "Biorefineries (2 Mt dry/yr each)": 19.096726496791177,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 293.7957922583258,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 43.71625043717896,
+    "Onshore wind": 48.933136425656606,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 2.753058398809928,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 21.099436997007007,
+    "E-fuel synthesis": 11.310318819221022,
+    "DAC": 0.0,
+    "Kelp farms": 63.644855388448235,
+    "Biorefineries": 63.01919743941088,
+    "Vessels": 17.627747535499545,
+    "ATJ plants": 4.924653918077937,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 329.48939542060845,
+   "capex_per_year_2027_2050_beur": 13.728724809192018
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 every farm fan-dries kelp offshore\nto 40% dry matter"
+ },
+ "LC_wwdry_max": {
+  "total_cost_beur": 47.95356403124543,
+  "generation_twh": {
+   "PV": 67.449522935955,
+   "Onshore wind": 29.372671212914632,
+   "Offshore wind": 95.24324541600001,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.9459778866694695
+  },
+  "capacity_gw": {
+   "PV": 37.55959624454561,
+   "Onshore wind": 12.418683922253775,
+   "Offshore wind": 27.181291500000004,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.5005045518352954
+  },
+  "electricity_delivered_twh": 192.06543956486965,
+  "heat_twh_th": {
+   "nuclear steam": 13.153259622231566,
+   "heat pumps": 19.729889433347346,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_EH|wet": 644.6044695168017,
+   "nor_slope|0-100|NUC_H|wet": 1184.4955304831983,
+   "nor_deep|0-100|NUC_H|wet": 30765.636990755476,
+   "nor_deep|0-100|NUC_EH|press_wwdry": 1226.5763675040803
+  },
+  "kelp_total_km2": 35181.813358259555,
+  "kelp_dry_mt": 70.36362671651912,
+  "kelp_wet_mt": 541.2586670501471,
+  "kelp_ethanol_twh": 4.7358497581681815,
+  "kelp_ethanol_mt": 0.6361589227390095,
+  "kelp_hc_twh": 129.8260774342361,
+  "kelp_ch4_gross_twh": 21.356103216243213,
+  "kelp_fleet_fuel_twh": 8.991827512340434,
+  "skysails_saved_twh": 0.23899103992728005,
+  "kelp_refinery_el_twh": 34.285655044964024,
+  "kelp_refinery_heat_twh": 32.88314905557891,
+  "kelp_co2_mt": 0.6084998391416613,
+  "fertiliser_mt": {
+   "N": 0.8443635205982294,
+   "P": 0.1688727041196459,
+   "K": 2.533090561794688
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.8443635205982294,
+   "P": 0.1688727041196459,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.6104469265887063,
+  "fertiliser_energy_avoided_pj": 56.57235588008136,
+  "fertiliser_co2_avoided_mt": 4.052944898871502,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 525.1139866573583,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1,
+   "nor_deep": 31992.213358259556
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 33310.63252123867,
+   "NUC_EH": 1871.1808370208819
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 33821.313358259555
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 33955.236990755475,
+   "press_wwdry": 1226.5763675040803
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": -0.0,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 5.768161026305568,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 0.0,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 129.8260774342361,
+   "kelp ethanol": 4.7358497581681815,
+   "kelp biomethane (net of fleet)": 12.364275703902779
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 113.80329948,
+   "hdv|liq": 12.644811053333328,
+   "offroad|el": 18.15555555555556,
+   "offroad|liq": 27.233333333333334,
+   "aviation|jet": 69.698592,
+   "shipping|lng": 37.36427570390278,
+   "shipping|liq": 38.01750207387501,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 0.0,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 0.0,
+  "electricity_vehicles_rail_twh": 149.8878287465667,
+  "marginal_eur_mwh": {
+   "dropin": 130.73804739101158,
+   "jet": 73.59322122331537,
+   "ethanol": 154.78325951817965,
+   "methane": 127.73804739101158,
+   "methanol": 130.73804739101158,
+   "ammonia": 129.98181485868884,
+   "heat": 28.683899502774633,
+   "el_flex": 50.78451955026044,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 86.01710193371997,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 18.73004955904755,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    12.063199351546286,
+    26.02481806533197
+   ],
+   "avoided_wtw_mtco2e": 165.59845301935243,
+   "reduction_pct": 89.83876649728592,
+   "reduction_factor_sensitivity_pct": [
+    85.88128384851231,
+    93.45559738032621
+   ],
+   "electricity_ci_gco2e_kwh": 20.744578284270812,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -112.10742340473784,
+   "avg2025": 48.89701240525771
+  },
+  "kelp_share_pct": 26.35500911471634,
+  "build": {
+   "PV (GW)": 37.55959624454561,
+   "Onshore wind (GW)": 12.418683922253775,
+   "Offshore wind (GW)": 27.181291500000004,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.5005045518352954,
+   "New nuclear (1.1 GW units)": 0.4550041380320867,
+   "Electrolysers (GW)": 0.0,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 35181.813358259555,
+   "Kelp (Mt dry/yr)": 70.36362671651912,
+   "Kelp (Mt wet/yr)": 541.2586670501471,
+   "Biorefineries (2 Mt dry/yr each)": 35.18181335825956,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 541.2586670501471,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 16.901818310045524,
+    "Onshore wind": 14.281486510591842,
+    "Offshore wind": 81.5438745,
+    "CSP": 0.0,
+    "New nuclear": 4.004036414682363,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 0.0,
+    "E-fuel synthesis": 0.0,
+    "DAC": 0.0,
+    "Kelp farms": 121.5511680897344,
+    "Biorefineries": 116.09998408225654,
+    "Vessels": 32.475520023008826,
+    "ATJ plants": 0.6584658705828272,
+    "Charging and grid": 52.46074006129834,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 439.9770938622006,
+   "capex_per_year_2027_2050_beur": 18.332378910925026
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "\u2026 turbine waste heat dries as much kelp as the\nPOEM offshore zones allow (wind built)"
+ },
+ "LCL_kelp_biofuels": {
+  "total_cost_beur": 51.77195315820545,
+  "generation_twh": {
+   "PV": 118.12737716473735,
+   "Onshore wind": 112.6084539124516,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 4.489172472710926
+  },
+  "capacity_gw": {
+   "PV": 65.77980686309019,
+   "Onshore wind": 47.61054198902908,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.5694029011556223
+  },
+  "electricity_delivered_twh": 230.73583107718895,
+  "heat_twh_th": {
+   "nuclear steam": 14.963908242369754,
+   "heat pumps": 22.44586236355463,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_H|wet": 37508.97742717262
+  },
+  "kelp_total_km2": 40698.57742717262,
+  "kelp_dry_mt": 81.39715485434525,
+  "kelp_wet_mt": 626.1319604180403,
+  "kelp_ethanol_twh": 0.0,
+  "kelp_ethanol_mt": 0.0,
+  "kelp_hc_twh": 154.58296472698413,
+  "kelp_ch4_gross_twh": 25.49765875812365,
+  "kelp_fleet_fuel_twh": 10.488807126646172,
+  "skysails_saved_twh": 0.2861327610155983,
+  "kelp_refinery_el_twh": 40.42915284460474,
+  "kelp_refinery_heat_twh": 37.40977060592439,
+  "kelp_co2_mt": 0.0,
+  "fertiliser_mt": {
+   "N": 0.9767658582521429,
+   "P": 0.19535317165042862,
+   "K": 2.9302975747564286
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.9767658582521429,
+   "P": 0.17,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.9799626176574616,
+  "fertiliser_energy_avoided_pj": 65.44331250289358,
+  "fertiliser_co2_avoided_mt": 4.688476119610287,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 626.1319604180404,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 37508.97742717262
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 40698.57742717262
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 39338.07742717262
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 40698.57742717262
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 37.95285941352134,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 0.0,
+   "bio_methanol_from_CH4": 1.5453084950590512,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 10.3,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 154.58296472698413,
+   "kelp ethanol": 0.0,
+   "kelp biomethane (net of fleet)": 15.008851631477476
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 63.22405526666667,
+   "hdv|liq": 61.79548383809524,
+   "hdv|ed95": 1.4285714285714286,
+   "offroad|liq": 45.38888888888889,
+   "aviation|jet": 69.698592,
+   "shipping|meoh": 1.5453084950590512,
+   "shipping|nh3": 36.145580393829846,
+   "shipping|lng": 37.69088888888889,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 66.41750397366235,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 13.096020916351021,
+  "electricity_vehicles_rail_twh": 114.9108293135,
+  "marginal_eur_mwh": {
+   "dropin": 150.11684247803657,
+   "jet": 0.0,
+   "ethanol": 136.5083764299609,
+   "methane": 83.41122831869104,
+   "methanol": 150.11684247803657,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 92.86636899846451,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 21.24616146313717,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    13.635437105867283,
+    31.157553006203074
+   ],
+   "avoided_wtw_mtco2e": 163.0823411152628,
+   "reduction_pct": 88.47375139170319,
+   "reduction_factor_sensitivity_pct": [
+    83.09672537324991,
+    92.6026431533193
+   ],
+   "electricity_ci_gco2e_kwh": 24.768726494723456,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -90.42319763135899,
+   "avg2025": 73.06529117163625
+  },
+  "kelp_share_pct": 30.420672268124726,
+  "build": {
+   "PV (GW)": 65.77980686309019,
+   "Onshore wind (GW)": 47.61054198902908,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.5694029011556223,
+   "New nuclear (1.1 GW units)": 0.5176390010505657,
+   "Electrolysers (GW)": 13.096020916351021,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 40698.57742717262,
+   "Kelp (Mt dry/yr)": 81.39715485434525,
+   "Kelp (Mt wet/yr)": 626.1319604180403,
+   "Biorefineries (2 Mt dry/yr each)": 40.69857742717262,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 626.1319604180403,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 29.600913088390584,
+    "Onshore wind": 54.75212328738345,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 4.5552232092449785,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 13.096020916351021,
+    "E-fuel synthesis": 7.089575232911831,
+    "DAC": 0.0,
+    "Kelp farms": 141.41151873782144,
+    "Biorefineries": 134.30530550966964,
+    "Vessels": 37.56791762508242,
+    "ATJ plants": 0.0,
+    "Charging and grid": 40.218790259725,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 462.5973878665804,
+   "capex_per_year_2027_2050_beur": 19.274891161107515
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "Liquid rule kept: kelp + existing biofuels"
+ },
+ "LCL_no_efuels": {
+  "total_cost_beur": 52.63327970122343,
+  "generation_twh": {
+   "PV": 51.709873191075005,
+   "Onshore wind": 123.52609917159245,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 5.481151317145576
+  },
+  "capacity_gw": {
+   "PV": 28.79489541768293,
+   "Onshore wind": 52.22649212396095,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.695224672392894
+  },
+  "electricity_delivered_twh": 175.23597236266744,
+  "heat_twh_th": {
+   "nuclear steam": 18.270504390485254,
+   "heat pumps": 27.40575658572789,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_H|wet": 38409.0,
+   "nor_deep|100-200|NUC_H|wet": 8093.200131748482
+  },
+  "kelp_total_km2": 49691.80013174848,
+  "kelp_dry_mt": 99.38360026349696,
+  "kelp_wet_mt": 764.4892327961304,
+  "kelp_ethanol_twh": 0.0,
+  "kelp_ethanol_mt": 0.0,
+  "kelp_hc_twh": 188.74138293241236,
+  "kelp_ch4_gross_twh": 31.13191278254042,
+  "kelp_fleet_fuel_twh": 13.142317868460507,
+  "skysails_saved_twh": 0.4420073870476643,
+  "kelp_refinery_el_twh": 49.3628404148763,
+  "kelp_refinery_heat_twh": 45.67626097621314,
+  "kelp_co2_mt": 0.0,
+  "fertiliser_mt": {
+   "N": 1.1926032031619636,
+   "P": 0.23852064063239276,
+   "K": 3.5778096094858904
+  },
+  "fertiliser_domestic_mt": {
+   "N": 1.0,
+   "P": 0.17,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 3.480268445552362,
+  "fertiliser_energy_avoided_pj": 79.90441461185156,
+  "fertiliser_co2_avoided_mt": 5.724495375177426,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 764.4892327961305,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 46502.20013174848
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 49691.80013174848
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 48331.30013174848
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 49691.80013174848
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 0.0,
+   "e_methane": 0.0,
+   "ATJ_jet_from_ethanol": 0.0,
+   "bio_methanol_from_CH4": 3.5324706834606787,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 0.0,
+   "FAME_biodiesel_existing": 10.3,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 188.74138293241236,
+   "kelp ethanol": 0.0,
+   "kelp biomethane (net of fleet)": 17.989594914079916
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 63.22405526666667,
+   "hdv|liq": 61.79548383809524,
+   "hdv|ed95": 1.4285714285714286,
+   "offroad|liq": 45.38888888888889,
+   "aviation|jet": 69.698592,
+   "shipping|meoh": 3.5324706834606787,
+   "shipping|lng": 37.69088888888889,
+   "shipping|liq": 34.15841820542821,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 0.0,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 0.0,
+  "electricity_vehicles_rail_twh": 114.9108293135,
+  "marginal_eur_mwh": {
+   "dropin": 174.99298530537556,
+   "jet": 0.0,
+   "ethanol": 160.94570029083386,
+   "methane": 99.99532353691703,
+   "methanol": 174.99298530537556,
+   "ammonia": 163.42189076702434,
+   "heat": 28.683899502774633,
+   "el_flex": 0.0,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 94.41138060595884,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 23.170520393964246,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    15.03871920771883,
+    31.585702259105126
+   ],
+   "avoided_wtw_mtco2e": 161.15798218443575,
+   "reduction_pct": 87.42976801207986,
+   "reduction_factor_sensitivity_pct": [
+    82.86445025197834,
+    91.84134900606463
+   ],
+   "electricity_ci_gco2e_kwh": 18.16629989951129,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -86.15831514905328,
+   "avg2025": 79.28236075166456
+  },
+  "kelp_share_pct": 37.08254006457734,
+  "build": {
+   "PV (GW)": 28.79489541768293,
+   "Onshore wind (GW)": 52.22649212396095,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.695224672392894,
+   "New nuclear (1.1 GW units)": 0.6320224294480854,
+   "Electrolysers (GW)": 0.0,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 49691.80013174848,
+   "Kelp (Mt dry/yr)": 99.38360026349696,
+   "Kelp (Mt wet/yr)": 764.4892327961304,
+   "Biorefineries (2 Mt dry/yr each)": 49.69180013174848,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 764.4892327961304,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 12.957702937957318,
+    "Onshore wind": 60.06046594255509,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 5.561797379143152,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 0.0,
+    "E-fuel synthesis": 0.0,
+    "DAC": 0.0,
+    "Kelp farms": 173.7871204742945,
+    "Biorefineries": 163.98294043477,
+    "Vessels": 45.86935396776782,
+    "ATJ plants": 0.0,
+    "Charging and grid": 40.218790259725,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 502.4381713962129,
+   "capex_per_year_2027_2050_beur": 20.934923808175537
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "Liquid rule kept: no e-fuels at all"
+ },
+ "LCL_efuels_free": {
+  "total_cost_beur": 51.30085221138842,
+  "generation_twh": {
+   "PV": 122.0184863143721,
+   "Onshore wind": 103.01991395710385,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.6179563304976896
+  },
+  "capacity_gw": {
+   "PV": 67.94658999575238,
+   "Onshore wind": 43.55653389020119,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.4588985705857039
+  },
+  "electricity_delivered_twh": 225.03840027147595,
+  "heat_twh_th": {
+   "nuclear steam": 12.0598544349923,
+   "heat pumps": 18.089781652488455,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_H|wet": 29610.58238104599
+  },
+  "kelp_total_km2": 32800.18238104599,
+  "kelp_dry_mt": 65.60036476209198,
+  "kelp_wet_mt": 504.61819047763066,
+  "kelp_ethanol_twh": 0.0,
+  "kelp_ethanol_mt": 0.0,
+  "kelp_hc_twh": 124.58296472698412,
+  "kelp_ch4_gross_twh": 20.549314261725314,
+  "kelp_fleet_fuel_twh": 8.442650256149607,
+  "skysails_saved_twh": 0.22942633504340712,
+  "kelp_refinery_el_twh": 32.583045173683466,
+  "kelp_refinery_heat_twh": 30.149636087480754,
+  "kelp_co2_mt": 0.0,
+  "fertiliser_mt": {
+   "N": 0.7872043771451037,
+   "P": 0.15744087542902077,
+   "K": 2.3616131314353113
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.7872043771451038,
+   "P": 0.15744087542902077,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.439541087663861,
+  "fertiliser_energy_avoided_pj": 52.74269326872195,
+  "fertiliser_co2_avoided_mt": 3.7785810102964983,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 504.61819047763055,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 29610.58238104599
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 32800.18238104599
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 31439.68238104599
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 32800.18238104599
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 39.575433333333336,
+   "e_methane": 0.5842248833131904,
+   "ATJ_jet_from_ethanol": 0.0,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 30.0,
+   "FAME_biodiesel_existing": 10.3,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 124.58296472698412,
+   "kelp ethanol": 0.0,
+   "kelp biomethane (net of fleet)": 12.106664005575707
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 63.22405526666667,
+   "hdv|liq": 61.79548383809524,
+   "hdv|ed95": 1.4285714285714286,
+   "offroad|liq": 45.38888888888889,
+   "aviation|jet": 69.698592,
+   "shipping|nh3": 37.69088888888889,
+   "shipping|lng": 37.69088888888889,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 70.30861312329709,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 13.863259125598223,
+  "electricity_vehicles_rail_twh": 114.9108293135,
+  "marginal_eur_mwh": {
+   "dropin": 158.34493347606886,
+   "jet": 0.0,
+   "ethanol": 145.0904128343513,
+   "methane": 146.65897160624124,
+   "methanol": 150.11684247803657,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 92.02132778031796,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 21.355075005098026,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    13.89688583421152,
+    31.734577958170153
+   ],
+   "avoided_wtw_mtco2e": 162.97342757330196,
+   "reduction_pct": 88.41466473910343,
+   "reduction_factor_sensitivity_pct": [
+    82.78368374165436,
+    92.46080468304092
+   ],
+   "electricity_ci_gco2e_kwh": 25.72524208710824,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -93.374287663077,
+   "avg2025": 70.22345889224324
+  },
+  "kelp_share_pct": 24.518815161079427,
+  "build": {
+   "PV (GW)": 67.94658999575238,
+   "Onshore wind (GW)": 43.55653389020119,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.4588985705857039,
+   "New nuclear (1.1 GW units)": 0.4171805187142762,
+   "Electrolysers (GW)": 13.863259125598223,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 32800.18238104599,
+   "Kelp (Mt dry/yr)": 65.60036476209198,
+   "Kelp (Mt wet/yr)": 504.61819047763066,
+   "Biorefineries (2 Mt dry/yr each)": 32.80018238104599,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 504.61819047763066,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 30.575965498088568,
+    "Onshore wind": 50.09001397373137,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 3.6711885646856315,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 13.863259125598223,
+    "E-fuel synthesis": 7.501804150058504,
+    "DAC": 0.0,
+    "Kelp farms": 112.97729657176556,
+    "Biorefineries": 108.24060185745178,
+    "Vessels": 30.27709142865784,
+    "ATJ plants": 0.0,
+    "Charging and grid": 40.218790259725,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 397.4160114297625,
+   "capex_per_year_2027_2050_beur": 16.559000476240104
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "Liquid rule kept: e-fuels may supply liquids"
+ },
+ "LCL_efuels_cement_co2": {
+  "total_cost_beur": 51.30085221138842,
+  "generation_twh": {
+   "PV": 122.0184863143721,
+   "Onshore wind": 103.01991395710385,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 3.6179563304976896
+  },
+  "capacity_gw": {
+   "PV": 67.94658999575238,
+   "Onshore wind": 43.55653389020119,
+   "Offshore wind": 0.0,
+   "CSP": 0.0,
+   "Nuclear (life extension)": 0.0,
+   "Nuclear (new)": 0.4588985705857039
+  },
+  "electricity_delivered_twh": 225.03840027147595,
+  "heat_twh_th": {
+   "nuclear steam": 12.0598544349923,
+   "heat pumps": 18.089781652488455,
+   "electric boilers": 0.0,
+   "wind-turbine waste heat": 0.0
+  },
+  "kelp_km2": {
+   "nor_shelf|0-100|NUC_H|wet": 1360.5,
+   "nor_slope|0-100|NUC_H|wet": 1829.1000000000001,
+   "nor_deep|0-100|NUC_H|wet": 29610.58238104599
+  },
+  "kelp_total_km2": 32800.18238104599,
+  "kelp_dry_mt": 65.60036476209198,
+  "kelp_wet_mt": 504.61819047763066,
+  "kelp_ethanol_twh": 0.0,
+  "kelp_ethanol_mt": 0.0,
+  "kelp_hc_twh": 124.58296472698412,
+  "kelp_ch4_gross_twh": 20.549314261725314,
+  "kelp_fleet_fuel_twh": 8.442650256149607,
+  "skysails_saved_twh": 0.22942633504340712,
+  "kelp_refinery_el_twh": 32.583045173683466,
+  "kelp_refinery_heat_twh": 30.149636087480754,
+  "kelp_co2_mt": 0.0,
+  "fertiliser_mt": {
+   "N": 0.7872043771451037,
+   "P": 0.15744087542902077,
+   "K": 2.3616131314353113
+  },
+  "fertiliser_domestic_mt": {
+   "N": 0.7872043771451038,
+   "P": 0.15744087542902077,
+   "K": 0.33
+  },
+  "fertiliser_value_beur": 2.439541087663861,
+  "fertiliser_energy_avoided_pj": 52.74269326872195,
+  "fertiliser_co2_avoided_mt": 3.7785810102964983,
+  "upwelling_pipes": 0.0,
+  "deep_water_lifted_km3": 0.0,
+  "kelp_wet_shipped_mt": 504.61819047763055,
+  "kelp_by_zone_km2": {
+   "nor_shelf": 1360.5,
+   "nor_slope": 1829.1000000000001,
+   "nor_deep": 29610.58238104599
+  },
+  "kelp_by_route_km2": {
+   "NUC_H": 32800.18238104599
+  },
+  "kelp_by_nutrient_method_km2": {
+   "natural": 1360.5,
+   "depth_cycling": 31439.68238104599
+  },
+  "kelp_by_preprocess_km2": {
+   "wet": 32800.18238104599
+  },
+  "fuels_twh": {
+   "eFT_liquids": 0.0,
+   "e_methanol": 0.0,
+   "e_ammonia": 39.575433333333336,
+   "e_methane": 0.5842248833131904,
+   "ATJ_jet_from_ethanol": 0.0,
+   "bio_methanol_from_CH4": 0.0,
+   "waste_biomethane": 25.0,
+   "HEFA_waste_lipids": 12.0,
+   "residue_FT": 30.0,
+   "FAME_biodiesel_existing": 10.3,
+   "crop_ethanol_existing": 1.5,
+   "kelp HTL diesel/jet": 124.58296472698412,
+   "kelp ethanol": 0.0,
+   "kelp biomethane (net of fleet)": 12.106664005575707
+  },
+  "co2_mt": {
+   "DAC": 0.0,
+   "other biogenic": 0.0,
+   "kelp": 0.0,
+   "cement": 0.0
+  },
+  "wind_assist_twh_saved": 18.845444444444446,
+  "end_use_twh": {
+   "ldv_gasoline|bev": 84.740453,
+   "ldv_diesel|bev": 136.98545307777778,
+   "hdv|bet": 63.22405526666667,
+   "hdv|liq": 61.79548383809524,
+   "hdv|ed95": 1.4285714285714286,
+   "offroad|liq": 45.38888888888889,
+   "aviation|jet": 69.698592,
+   "shipping|nh3": 37.69088888888889,
+   "shipping|lng": 37.69088888888889,
+   "rail_el|el": 3.762994688
+  },
+  "electricity_for_efuels_twh": 70.30861312329709,
+  "electricity_for_dac_twh": 0.0,
+  "electrolyser_gw": 13.863259125598223,
+  "electricity_vehicles_rail_twh": 114.9108293135,
+  "marginal_eur_mwh": {
+   "dropin": 158.34493347606886,
+   "jet": 0.0,
+   "ethanol": 145.0904128343513,
+   "methane": 146.65897160624124,
+   "methanol": 150.11684247803657,
+   "ammonia": 139.73032616955862,
+   "heat": 28.683899502774633,
+   "el_flex": 56.355097442186036,
+   "el_direct": 67.87000698810726
+  },
+  "co2_marginal_eur_t": 0.0,
+  "demand_twh": {
+   "ldv_gasoline": 84.740453,
+   "ldv_diesel": 136.98545307777778,
+   "hdv": 126.44811053333333,
+   "offroad": 45.38888888888889,
+   "aviation": 69.698592,
+   "shipping": 94.22722222222222,
+   "rail_el": 3.762994688
+  },
+  "fossil_cost_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "fossil_co2_mt": 147.38099186961114,
+  "avg_cost_eur_mwh": 92.02132778031796,
+  "lifecycle": {
+   "fossil_wtw_mtco2e": 184.3285025784,
+   "lowcarbon_wtw_mtco2e": 21.355075005098026,
+   "lowcarbon_factor_sensitivity_mtco2e": [
+    13.89688583421152,
+    31.734577958170153
+   ],
+   "avoided_wtw_mtco2e": 162.97342757330196,
+   "reduction_pct": 88.41466473910343,
+   "reduction_factor_sensitivity_pct": [
+    82.78368374165436,
+    92.46080468304092
+   ],
+   "electricity_ci_gco2e_kwh": 25.72524208710824,
+   "scope_note": "Screening well-to-wheel/carrier LCA; vehicle manufacture excluded; international bunkers included in all-scope case."
+  },
+  "abatement_eur_t": {
+   "oct2026": -93.374287663077,
+   "avg2025": 70.22345889224324
+  },
+  "kelp_share_pct": 24.518815161079427,
+  "build": {
+   "PV (GW)": 67.94658999575238,
+   "Onshore wind (GW)": 43.55653389020119,
+   "Offshore wind (GW)": 0.0,
+   "CSP (GW)": 0.0,
+   "Nuclear life extension (GW)": 0.0,
+   "New nuclear (GW_e)": 0.4588985705857039,
+   "New nuclear (1.1 GW units)": 0.4171805187142762,
+   "Electrolysers (GW)": 13.863259125598223,
+   "DAC (Mt CO2/yr)": 0.0,
+   "Kelp farms (km2)": 32800.18238104599,
+   "Kelp (Mt dry/yr)": 65.60036476209198,
+   "Kelp (Mt wet/yr)": 504.61819047763066,
+   "Biorefineries (2 Mt dry/yr each)": 32.80018238104599,
+   "Harvest/transport vessels (1 Mt wet/yr each)": 504.61819047763066,
+   "Upwelling pipes": 0.0,
+   "capex_beur": {
+    "PV": 30.575965498088568,
+    "Onshore wind": 50.09001397373137,
+    "Offshore wind": 0.0,
+    "CSP": 0.0,
+    "New nuclear": 3.6711885646856315,
+    "Nuclear life extension": 0.0,
+    "Electrolysers": 13.863259125598223,
+    "E-fuel synthesis": 7.501804150058504,
+    "DAC": 0.0,
+    "Kelp farms": 112.97729657176556,
+    "Biorefineries": 108.24060185745178,
+    "Vessels": 30.27709142865784,
+    "ATJ plants": 0.0,
+    "Charging and grid": 40.218790259725,
+    "Upwelling pipes": 0.0
+   },
+   "capex_total_beur": 397.4160114297625,
+   "capex_per_year_2027_2050_beur": 16.559000476240104
+  },
+  "aviation_shifted_to_rail_twh": 6.814973440000001,
+  "fossil_same_demand_beur": {
+   "oct2026": 66.51837991905556,
+   "avg2025": 39.85629441966667
+  },
+  "label": "Liquid rule kept: e-fuels + cement CO2"
+ }
+}

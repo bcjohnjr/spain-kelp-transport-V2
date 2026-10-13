@@ -1,0 +1,48 @@
+{
+ "a_price_shock": {
+  "columns": [
+   "system",
+   "cost at 2025 average prices (EUR bn/yr)",
+   "cost at October 2026 prices (EUR bn/yr)"
+  ],
+  "rows": [
+   [
+    "Fossil fuels",
+    39.85629441966667,
+    66.51837991905556
+   ],
+   [
+    "Least-cost low-carbon",
+    42.7772369743691,
+    45.13783649568223
+   ],
+   [
+    "No imported feedstocks",
+    43.493956014255964,
+    43.493956014255964
+   ]
+  ],
+  "note": ""
+ },
+ "b_import_dependence": {
+  "columns": [
+   "system",
+   "transport energy from imported fuels or feedstocks (%)"
+  ],
+  "rows": [
+   [
+    "Fossil fuels (crude imported)",
+    100.0
+   ],
+   [
+    "Least-cost low-carbon",
+    4.269144676480403
+   ],
+   [
+    "No imported feedstocks",
+    0.0
+   ]
+  ],
+  "note": ""
+ }
+}

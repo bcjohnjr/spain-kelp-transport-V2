@@ -1,0 +1,42 @@
+[
+ [
+  "Kelp must supply all liquid fuel",
+  0.9864390792166944
+ ],
+ [
+  "Ethanol + HTL route at every refinery",
+  1.0538340248856528
+ ],
+ [
+  "All refinery steam and power from new nuclear",
+  0.8812284349466424
+ ],
+ [
+  "Press kelp at sea (all farms)",
+  0.5296432138414175
+ ],
+ [
+  "Fan-dry offshore to 40% DM (all farms)",
+  2.6630926108632167
+ ],
+ [
+  "Heat-pump dry offshore to 90% DM (all farms)",
+  2.771840559339573
+ ],
+ [
+  "Dry with turbine waste heat (all POEM offshore wind built)",
+  3.8784861669439508
+ ],
+ [
+  "Nutrients by solar-pumped upwelling",
+  3.9248962127149483
+ ],
+ [
+  "No electricity-based fuels at all",
+  0.2282930108972394
+ ],
+ [
+  "Liquid fuel kept for heavy equipment, half of trucks",
+  8.523615237019314
+ ]
+]

@@ -1,0 +1,39 @@
+{
+ "d_f_turn_losses": {
+  "columns": [
+   "configuration",
+   "turns",
+   "missed area (m2)",
+   "missed (% of 1.44 ha)",
+   "harvested twice with LMMs (m2)",
+   "harvested twice with LMMs (%)"
+  ],
+  "rows": [
+   [
+    "Conventional vessel, 10 m, spiral, 90-degree turns",
+    10,
+    214.6018366025517,
+    1.4902905319621647,
+    "",
+    ""
+   ],
+   [
+    "Grid Harvester head 6 m, turning while moving forward",
+    23,
+    355.38064141382563,
+    2.467921120929345,
+    1300.6193585861743,
+    9.032078879070655
+   ],
+   [
+    "Grid Harvester head 6 m, turning in place",
+    23,
+    88.84516035345641,
+    0.6169802802323362,
+    414.0,
+    2.875
+   ]
+  ],
+  "note": "Panels a-c are illustrations; values for d-f from harvester_turns.py (1.44-ha harvest cycle)."
+ }
+}
