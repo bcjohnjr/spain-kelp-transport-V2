@@ -1,0 +1,3 @@
+polymer,assumed_density_kg_m3,core_diameter_mm,neutral_buoyancy_outer_diameter_mm,example_20mm_outer_shell_net_lift_kg_m,separate_sealed_air_void_L_m_to_neutral
+PP_scenario,900.0,10.0,75.3657747256671,-0.5183627878423158,0.5057197930168934
+HDPE_scenario,950.0,10.0,96.9535971483266,-0.5301437602932776,0.5172134246763683

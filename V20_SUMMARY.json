@@ -1,0 +1,89 @@
+{
+  "baseline_v18": {
+    "national_cost_b_eur_y": 42.7772369743691,
+    "dry_kelp_mt_y": 36.462403639580444,
+    "wet_kelp_mt_y": 280.48002799677266,
+    "farm_area_km2": 18231.20181979022,
+    "harvest_support_twh_fuel_eq": 3.544955909403654,
+    "cargo_twh_fuel_eq_after_existing_kites": 1.1234567329710612,
+    "total_marine_twh_fuel_eq": 4.668412642374715,
+    "original_kite_savings_twh": 0.1248285258856734
+  },
+  "controls": {
+    "fuel_eur_mwh": 80,
+    "dry_tonnes_y": 36462403.63958044,
+    "harvester_head_gwh_y": 32.8161632756224,
+    "prior_support_fuel_energy_twh": 3.544955909403654,
+    "harvester_pv_plus_vawt_delivered_gwh_y": 51.836131200000004,
+    "100yr_hull_is_sensitivity_not_guarantee": true,
+    "solar_roof_replacement_years": 23,
+    "battery_replacement_years": 12,
+    "100yr_vs_30yr_discount_rate_base": 0.04,
+    "hull_capex_premium_stressed_from_1_to_2x": true,
+    "fish_and_drone_seeding_after_initial_establishment": "spot_replanting only; no annual reseeding of complete farms"
+  },
+  "best_financial_cargo_fleet": {
+    "speed_kn": 6,
+    "hull_lifetime_y": 100,
+    "discount_pct": 4.0,
+    "kit": "legacy",
+    "vessels": 73,
+    "night_wind_allowed": true,
+    "hull_capex_multiplier": 1.0,
+    "marine_transport_twh_fuel_eq": 0.7878240339959566,
+    "marine_fuel_saved_twh": 0.3356326989751046,
+    "electrical_roof_pv_gwh": 0.0,
+    "electrical_wind_gwh": 0.0,
+    "hull_capital_difference_meur_y": -12.499311023368627,
+    "module_cost_meur_y": 0.0,
+    "operating_difference_meur_y": 3.04,
+    "value_of_fuel_saved_meur_y": 26.85061591800837,
+    "net_saving_meur_y": 36.309926941377
+  },
+  "maximum_cargo_energy_saving": {
+    "speed_kn": 4.5,
+    "hull_lifetime_y": 30,
+    "discount_pct": 4.0,
+    "kit": "full",
+    "vessels": 83,
+    "night_wind_allowed": true,
+    "hull_capex_multiplier": 1.0,
+    "marine_transport_twh_fuel_eq": 0.5660966582069331,
+    "marine_fuel_saved_twh": 0.5573600747641281,
+    "electrical_roof_pv_gwh": 19.06344,
+    "electrical_wind_gwh": 3.3209379,
+    "hull_capital_difference_meur_y": 41.773544610147596,
+    "module_cost_meur_y": 17.69033465277087,
+    "operating_difference_meur_y": 6.84,
+    "value_of_fuel_saved_meur_y": 44.58880598113025,
+    "net_saving_meur_y": -21.71507328178822
+  },
+  "illustrative_autonomous_support": {
+    "avoided_old_service_pct": 15.0,
+    "electrifiable_remaining_pct": 25.0,
+    "offsite_renewable_gwh": 0,
+    "base_support_twh_fuel_eq": 3.544955909403654,
+    "harvester_head_electricity_gwh": 32.8161632756224,
+    "delivered_roof_pv_wind_gwh": 51.836131200000004,
+    "support_renewable_electricity_used_gwh": 19.0199679243776,
+    "fuel_energy_saved_twh": 0.5697833222593033,
+    "remaining_support_fuel_energy_twh": 2.9751725871443506,
+    "gross_fuel_equivalent_value_meur": 45.582665780744264,
+    "offsite_energy_procurement_meur": 0.0
+  },
+  "available_support_savings_limits": {
+    "max_onboard_support_electricity_gwh": 19.0199679243776,
+    "harvest_support_original_fuel_energy_gwh": 3544.955909403654,
+    "comparison": "52 GWh renewable head power cannot replace 3,545 GWh fleet fuel input; electricity/fuel efficiencies differ"
+  },
+  "limitations": [
+    "Original 3.55 TWh is a broad historical support allowance with no audited subactivity breakdown: do not declare it all harvesting or drone seed use.",
+    "Daylight harvester PV can supply small cutting-head electric load annually; night utility work depends on storage/wind and weather.",
+    "Drone seeding only initial & repair is concept design, not field-observed time-motion cost.",
+    "Vessel PV/kite/VAWT power outputs are engineered sensitivities; shaft energy, drag and actual wind kites require empirical trials.",
+    "100-year hull service life is not verified; refits, downtime, steel renewal, class inspection and residual value uncertain.",
+    "Perpetual selective kelp harvest requires multi-year independent ecological and nutrient validation.",
+    "Do not subtract annualized 30-to-100yr capital savings if replacement is not really postponed.",
+    "The files are a marine-energy sensitivity overlay; old Spain optimizer and manuscripts preserved verbatim, not retroactively recertified."
+  ]
+}

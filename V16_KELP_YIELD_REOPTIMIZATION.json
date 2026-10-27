@@ -1,0 +1,70 @@
+[
+  {
+    "transport_supply_billion_EUR": 56.218411661498,
+    "kelp_km2": 20000.0,
+    "kelp_dry_Mt": 40.0,
+    "all_transport_fossil_TWh": 0.0,
+    "idle_farm_annuitized_billion_EUR": 0.0,
+    "idle_CSP_annuitized_billion_EUR": 0.0,
+    "yield_t_ha": 20,
+    "kelp_min_TWh": 50,
+    "status": "optimal",
+    "net_supplier_bn": 56.095139388327006,
+    "fossil_2026_bn": 66.51837992,
+    "savings_bn": 10.423240531672995
+  },
+  {
+    "transport_supply_billion_EUR": 59.880322103726805,
+    "kelp_km2": 20000.000000000004,
+    "kelp_dry_Mt": 30.0,
+    "all_transport_fossil_TWh": 0.0,
+    "idle_farm_annuitized_billion_EUR": 0.0,
+    "idle_CSP_annuitized_billion_EUR": 0.2267931988858816,
+    "yield_t_ha": 15,
+    "kelp_min_TWh": 50,
+    "status": "optimal",
+    "net_supplier_bn": 59.98384302944169,
+    "fossil_2026_bn": 66.51837992,
+    "savings_bn": 6.534536890558314
+  },
+  {
+    "yield_t_ha": 10,
+    "kelp_min_TWh": 50,
+    "status": "infeasible_or_error",
+    "error": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "transport_supply_billion_EUR": 63.79481756871194,
+    "kelp_km2": 20000.0,
+    "kelp_dry_Mt": 20.0,
+    "all_transport_fossil_TWh": 0.0,
+    "idle_farm_annuitized_billion_EUR": 0.0,
+    "idle_CSP_annuitized_billion_EUR": 0.27840880338602203,
+    "yield_t_ha": 10,
+    "kelp_min_TWh": 0,
+    "status": "optimal",
+    "net_supplier_bn": 63.949954098926966,
+    "fossil_2026_bn": 66.51837992,
+    "savings_bn": 2.568425821073035
+  },
+  {
+    "yield_t_ha": 5.4,
+    "kelp_min_TWh": 50,
+    "status": "infeasible_or_error",
+    "error": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "transport_supply_billion_EUR": 67.13804267498251,
+    "kelp_km2": 20000.0,
+    "kelp_dry_Mt": 12.663949999999998,
+    "all_transport_fossil_TWh": 0.0,
+    "idle_farm_annuitized_billion_EUR": 0.0,
+    "idle_CSP_annuitized_billion_EUR": 0.4958938450039686,
+    "yield_t_ha": 5.4,
+    "kelp_min_TWh": 0,
+    "status": "optimal",
+    "net_supplier_bn": 67.51066424681548,
+    "fossil_2026_bn": 66.51837992,
+    "savings_bn": -0.9922843268154793
+  }
+]

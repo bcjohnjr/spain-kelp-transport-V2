@@ -1,0 +1,8 @@
+scenario,supply_cost_bn_eur_y,conditional_fish_margin_bn_eur_y,adjusted_cost_bn_eur_y,same_service_fossil_oct_bn_eur_y,saving_pct,scenario_scope
+"Transition terminal, supplier gross",56.21841166,0.00000000,56.21841166,66.51837992,15.4844,2027-2041 constrained terminal
+"Transition terminal, supplier net",56.21841166,0.12327227,56.09513939,66.51837992,15.6697,2027-2041 constrained terminal
+Completed learning target,42.77723697,0.00000000,42.77723697,66.51837992,35.6911,static unconstrained completed learning
+Completed Monte Carlo median,50.51084635,0.00000000,50.51084635,66.51837992,24.0648,static 1000-draw median
+Completed Monte Carlo p5,46.07902417,0.00000000,46.07902417,66.51837992,30.7274,static 1000-draw 5th percentile
+Completed Monte Carlo p95,55.85063265,0.00000000,55.85063265,66.51837992,16.0373,static 1000-draw 95th percentile
+Transition methane-free,63.86898639,0.00000000,63.86898639,66.51837992,3.9829,terminal with synthetic methane excluded

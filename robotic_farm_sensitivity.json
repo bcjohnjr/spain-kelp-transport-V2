@@ -1,0 +1,73 @@
+{
+  "method": "screening sensitivity; not calibrated / experimentally validated",
+  "cases": [
+    {
+      "yield_dry_t_ha_y": 15.0,
+      "lp_energy_supply_beur": 44.3108012519168,
+      "farm_area_km2": 19305.512212574227,
+      "kelp_dry_mt_y": 28.95826831886134,
+      "kelp_share_pct": 10.900491632815385,
+      "robots_assumed": 38611.024425148455,
+      "robot_annual_cost_beur": 0.11639435818314771,
+      "avoided_reseeding_beur": 0.12272242479780598,
+      "robot_net_operating_sensitivity_beur": -0.006328066614658266,
+      "indicative_total_beur": 44.30447318530214,
+      "warning": "hypothetical robot economics; no field validation"
+    },
+    {
+      "yield_dry_t_ha_y": 20.0,
+      "lp_energy_supply_beur": 42.7772369743691,
+      "farm_area_km2": 18231.20181979022,
+      "kelp_dry_mt_y": 36.462403639580444,
+      "kelp_share_pct": 13.632547638917622,
+      "robots_assumed": 36462.40363958044,
+      "robot_annual_cost_beur": 0.10991726152387674,
+      "avoided_reseeding_beur": 0.15452424638565573,
+      "robot_net_operating_sensitivity_beur": -0.04460698486177899,
+      "indicative_total_beur": 42.73262998950732,
+      "warning": "hypothetical robot economics; no field validation"
+    },
+    {
+      "yield_dry_t_ha_y": 25.0,
+      "lp_energy_supply_beur": 41.59194951773933,
+      "farm_area_km2": 23719.353332506813,
+      "kelp_dry_mt_y": 59.29838333126704,
+      "kelp_share_pct": 22.1667712125687,
+      "robots_assumed": 47438.706665013626,
+      "robot_annual_cost_beur": 0.1430057321068254,
+      "avoided_reseeding_beur": 0.25130098626315367,
+      "robot_net_operating_sensitivity_beur": -0.10829525415632826,
+      "indicative_total_beur": 41.483654263583,
+      "warning": "hypothetical robot economics; no field validation"
+    }
+  ],
+  "assumptions": {
+    "robot_density_per_km2": 2,
+    "robot_capex_eur": 8000,
+    "robot_life_y": 5,
+    "robot_opex_fraction_of_capex_y": 0.15,
+    "robot_electricity_kwh_per_day": 0.4,
+    "electricity_eur_per_kwh": 0.12,
+    "gross_farm_cost_fraction_for_seeding": 0.05,
+    "seeding_cost_avoided_fraction": 0.5,
+    "added_growth_is_not_a_measured_robot_effect": true,
+    "drag_model": "0.5 * seawater_density * CdA * speed^2 * distance / thruster_efficiency",
+    "seawater_density_kg_m3": 1025.0,
+    "water_speed_m_s": 0.25,
+    "mission_distance_m": 1500.0,
+    "propulsive_efficiency": 0.35,
+    "stowed_CdA_m2": 0.025,
+    "deployed_CdA_m2": 0.095
+  },
+  "indicative_propulsive_kwh_per_1500m": {
+    "stowed": 0.000953311011904762,
+    "deployed": 0.0036225818452380954
+  },
+  "caveats": [
+    "Higher yield is an independent sensitivity, NOT predicted from the robots.",
+    "Seeding savings assumed, not double-count verified against base cultivation cost.",
+    "Robot costs are illustrative, not quotes; density/area relationship is unspecified.",
+    "The national LP may optimize a different kelp share when costs/yields change.",
+    "Stowed arms reduce snagging and flow drag, but low-speed propulsive energy is a small part of total duty energy."
+  ]
+}

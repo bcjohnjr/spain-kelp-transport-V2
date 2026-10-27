@@ -1,0 +1,44 @@
+{
+  "transition_2041_net": 56.095139388,
+  "transition_2041_gross": 56.218411661,
+  "fossil_oct_reduced": 66.51837991905556,
+  "static_learning": 42.7772369743691,
+  "static_p5": 46.07902417336794,
+  "static_median": 50.51084634792244,
+  "static_p95": 55.85063264831241,
+  "fish_margin_bn": 0.123272273171,
+  "methane_cap_cost": 63.86898638577006,
+  "original_mc_summary": {
+    "n": 1000,
+    "cost_p5_p50_p95": [
+      46.07902417336794,
+      50.51084634792244,
+      55.85063264831241
+    ],
+    "cost_incl_vehicles_p5_p50_p95": [
+      52.96579556824506,
+      58.97665186960876,
+      65.68519164176477
+    ],
+    "p_below_oct2026": 1.0,
+    "p_below_2025": 0.0,
+    "p_incl_vehicles_below_oct2026": 0.981,
+    "p_incl_vehicles_below_2025": 0.0,
+    "kelp_km2_p5_p50_p95": [
+      0.0,
+      6629.939765951472,
+      14934.357375819944
+    ],
+    "lifecycle_reduction_pct_p5_p50_p95": [
+      88.64564248626294,
+      90.41600130152973,
+      91.99547180439768
+    ],
+    "abatement_2025_incl_vehicles_eur_t_p5_p50_p95": [
+      78.04399614423109,
+      112.09746642674534,
+      151.02084428583717
+    ]
+  },
+  "note": "Static and dynamic models have different constraint sets; do not represent as identical technical configurations. Consumer vehicle costs excluded. Fish co-product only credited to transition supplier, or shown as optional common credit."
+}

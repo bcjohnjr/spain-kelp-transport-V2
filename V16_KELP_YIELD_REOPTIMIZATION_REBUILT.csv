@@ -1,0 +1,7 @@
+yield_t_ha,kelp_min_TWh,status,transport_supply_billion_EUR,idle_farm_annuitized_billion_EUR,idle_CSP_annuitized_billion_EUR,net_supplier_bn,fossil_2026_bn,kelp_km2,detail
+20,50,optimal,56.218411661498,0.0,0.0,56.09513938832717,66.51837991905556,20000.0,
+15,50,optimal,59.880322103726805,0.0,0.2267931988858816,59.98384302944185,66.51837991905556,20000.000000000004,
+10,50,infeasible,,,,,,,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)
+10,0,optimal,63.79481756871194,0.0,0.27840880338602203,63.94995409892713,66.51837991905556,20000.0,
+5.4,50,infeasible,,,,,,,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)
+5.4,0,optimal,67.13804267498251,0.0,0.4958938450039686,67.51066424681565,66.51837991905556,20000.0,
